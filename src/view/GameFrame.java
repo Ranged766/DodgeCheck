@@ -1,12 +1,15 @@
+package view;
+
 import javax.swing.JFrame;
 
+@SuppressWarnings("serial")
 public class GameFrame extends JFrame{
 
-	GameFrame(){			
+	public GameFrame(){			
 
 		this.add(new GamePanel());
 
-		this.setTitle("Snake");
+		this.setTitle("Progetto");
 
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
