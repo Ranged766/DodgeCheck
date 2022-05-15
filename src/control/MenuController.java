@@ -2,9 +2,8 @@ package control;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import view.MenuWindow;
-import view.GameFrame;
+import view.GamePanel;
 
 public class MenuController implements ActionListener{
 	
@@ -24,11 +23,12 @@ public class MenuController implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource()==mw.getBtnStart()) {
-			new GameFrame();
+			new GameController(mw, new GamePanel());
 			mw.setVisible(false);
 		}
 		if(e.getSource()==mw.getBtnLeaderboard()) {
-			
+			new LeaderboardController(mw);
+			mw.setVisible(false);
 		}
 		if(e.getSource()==mw.getBtnExit()) {
 			System.exit(0);

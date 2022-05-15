@@ -1,20 +1,16 @@
 package view;
 
 import java.awt.BorderLayout;
-
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JButton;
-import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import java.awt.Color;
 import java.awt.Toolkit;
 
+@SuppressWarnings("serial")
 public class MenuWindow extends JFrame {
 
 	private JPanel contentPane;
@@ -42,35 +38,35 @@ public class MenuWindow extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
-		
+
 		panel = new JPanel();
 		panel.setBackground(new Color(0, 0, 0));
 		contentPane.add(panel, BorderLayout.CENTER);
 		panel.setLayout(null);
-		
+
 		lblTitle = new JLabel("");
 		lblTitle.setIcon(new ImageIcon(MenuWindow.class.getResource("/img/title.png")));
 		lblTitle.setBounds(10, 11, 400, 197);
 		panel.add(lblTitle);
-		
+
 		lblImgLeft = new JLabel("");
 		lblImgLeft.setIcon(new ImageIcon(MenuWindow.class.getResource("/img/ghostm.gif")));
 		lblImgLeft.setBounds(431, 93, 300, 387);
 		panel.add(lblImgLeft);
-		
+
 		btnStart = new JButton("");
 		btnStart.setIcon(new ImageIcon(MenuWindow.class.getResource("/img/Start.png")));
 		btnStart.setBounds(145, 219, 135, 61);
-		
-		//per bottone opaco{
+
+		// per bottone opaco{
 		btnStart.setBorder(null);
 		btnStart.setBorderPainted(false);
 		btnStart.setContentAreaFilled(false);
 		btnStart.setOpaque(false);
 		btnStart.setFocusPainted(false);
-		//}
+		// }
 		panel.add(btnStart);
-		
+
 		btnExit = new JButton("");
 		btnExit.setIcon(new ImageIcon(MenuWindow.class.getResource("/img/exit.png")));
 		btnExit.setOpaque(false);
@@ -80,7 +76,7 @@ public class MenuWindow extends JFrame {
 		btnExit.setBorder(null);
 		btnExit.setBounds(155, 363, 108, 69);
 		panel.add(btnExit);
-		
+
 		btnLeaderboard = new JButton("");
 		btnLeaderboard.setIcon(new ImageIcon(MenuWindow.class.getResource("/img/leaderboard.png")));
 		btnLeaderboard.setOpaque(false);
@@ -90,12 +86,14 @@ public class MenuWindow extends JFrame {
 		btnLeaderboard.setBorder(null);
 		btnLeaderboard.setBounds(102, 291, 233, 61);
 		panel.add(btnLeaderboard);
-		
+
 		JLabel lblNewLabel = new JLabel("");
 		lblNewLabel.setIcon(new ImageIcon(MenuWindow.class.getResource("/img/background.png")));
 		lblNewLabel.setBounds(-15, 0, 793, 555);
 		panel.add(lblNewLabel);
-		
+
+
+		this.setLocationRelativeTo(null);
 		this.setVisible(true);
 		this.setResizable(false);
 	}
