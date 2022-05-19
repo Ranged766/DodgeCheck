@@ -1,5 +1,10 @@
 package model;
 
+/**
+ * Classe contenente i valori del giocatore.
+ * @author Gruppo 7
+ *
+ */
 public class Player {
 	// create player coordinate variable
 		private int x;
@@ -7,10 +12,12 @@ public class Player {
 		private int y;
 
 		// set all movement to false
-		private boolean[] direction = {false, false, false, false };;
-
+		private boolean[] direction = {false, false, false, false };
 		private boolean shift;
 
+		/**
+		 * Metodo costruttore di @Player.
+		 */
 		public Player() {
 			this.x = 0;
 			this.y = 0;
@@ -49,6 +56,10 @@ public class Player {
 			this.shift = shift;
 		}
 		
+		/**
+		 * Metodo che ritorna un valore in base al movimento del giocatore.
+		 * @return true o false
+		 */
 		public boolean isMoving() {
 			for(int i = 0;i<4;i++)
 				if(direction[i] == true)

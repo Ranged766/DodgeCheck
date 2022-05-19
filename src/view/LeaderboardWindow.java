@@ -8,7 +8,13 @@ import javax.swing.JLabel;
 import javax.swing.JButton;
 import javax.swing.JScrollPane;
 import javax.swing.JList;
+import javax.swing.ImageIcon;
 
+/**
+ * Classe contenente la scheda della classifica.
+ * @author user
+ *
+ */
 @SuppressWarnings("serial")
 public class LeaderboardWindow extends JFrame {
 
@@ -19,6 +25,7 @@ public class LeaderboardWindow extends JFrame {
 	private JButton btnExit;
 	private JLabel lblTitle;
 	private JButton btnReset;
+	private JLabel lblNewLabel;
 
 	/**
 	 * Create the frame.
@@ -34,23 +41,41 @@ public class LeaderboardWindow extends JFrame {
 		contentPane.setLayout(null);
 
 		scrollPane = new JScrollPane();
-		scrollPane.setBounds(10, 45, 258, 144);
+		scrollPane.setBounds(10, 85, 258, 144);
 		contentPane.add(scrollPane);
 
 		list = new JList();
 		scrollPane.setViewportView(list);
 
-		btnExit = new JButton("Exit\r\n");
-		btnExit.setBounds(84, 200, 99, 38);
+		btnExit = new JButton("");
+		btnExit.setIcon(new ImageIcon(LeaderboardWindow.class.getResource("/img/exit.png")));
+		btnExit.setBounds(307, 192, 98, 62);
+		btnExit.setOpaque(false);
+		btnExit.setFocusPainted(false);
+		btnExit.setContentAreaFilled(false);
+		btnExit.setBorderPainted(false);
+		btnExit.setBorder(null);
 		contentPane.add(btnExit);
 
-		lblTitle = new JLabel("Leaderboard\r\n");
-		lblTitle.setBounds(10, 11, 274, 23);
+		lblTitle = new JLabel("");
+		lblTitle.setIcon(new ImageIcon(LeaderboardWindow.class.getResource("/img/leaderboard.png")));
+		lblTitle.setBounds(10, 11, 275, 62);
 		contentPane.add(lblTitle);
 
-		btnReset = new JButton("Reset");
-		btnReset.setBounds(316, 109, 89, 23);
+		btnReset = new JButton("");
+		btnReset.setIcon(new ImageIcon(LeaderboardWindow.class.getResource("/img/Reset.png")));
+		btnReset.setOpaque(false);
+		btnReset.setFocusPainted(false);
+		btnReset.setContentAreaFilled(false);
+		btnReset.setBorderPainted(false);
+		btnReset.setBorder(null);
+		btnReset.setBounds(298, 95, 130, 62);
 		contentPane.add(btnReset);
+		
+		lblNewLabel = new JLabel("");
+		lblNewLabel.setIcon(new ImageIcon(LeaderboardWindow.class.getResource("/img/background.png")));
+		lblNewLabel.setBounds(0, 0, 438, 265);
+		contentPane.add(lblNewLabel);
 		this.setVisible(true);
 	}
 

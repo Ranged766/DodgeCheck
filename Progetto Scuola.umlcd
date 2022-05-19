@@ -1,0 +1,2493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ZHVzENTpEeyzp-OO8aolFQ">
+  <modelElement href="Progetto%20Scuola.uml#_ZFicQNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eYKzgNTpEeyzp-OO8aolFQ" targetItem="_eYSIQNTpEeyzp-OO8aolFQ" sourceItem="_eYKMcNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eYMosdTpEeyzp-OO8aolFQ" targetItem="_eYSIXdTpEeyzp-OO8aolFQ" sourceItem="_eYMosNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eYPsANTpEeyzp-OO8aolFQ" sourceAnchor="219.0,0.0" targetAnchor="297.0,0.0" target="_eanDidTpEeyzp-OO8aolFQ" source="_eYSIQNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0PVUNTpEeyzp-OO8aolFQ"/>
+    <bendpoints xmi:id="_ep2ZYNTpEeyzp-OO8aolFQ" sourceY="-279" targetX="-889" targetY="-74"/>
+    <bendpoints xmi:id="_ep2ZYdTpEeyzp-OO8aolFQ" sourceX="889" sourceY="-279" targetY="-74"/>
+    <stereotypes xmi:id="_eYPsAdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0P8YNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eYPsAtTpEeyzp-OO8aolFQ" text="">
+      <visualProperties xmi:id="_ep7R4NTpEeyzp-OO8aolFQ" position="-453.9509885472902,145.25738179583539"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eYPsA9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0PVUdTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_ep6DwtTpEeyzp-OO8aolFQ" position="3.6625728185308617,-70.32059745433475"/>
+      <visibility xmi:id="_eYPsBNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYPsBdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eYPsBtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="v" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_Zza18NTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_ep7R4dTpEeyzp-OO8aolFQ" position="-887.6935062652524,-29.520431089614846"/>
+      <visibility xmi:id="_eYPsB9TpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eYPsCNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eYQ6INTpEeyzp-OO8aolFQ" sourceAnchor="439.0,43.0" targetAnchor="0.0,179.0" target="_eaGGINTpEeyzp-OO8aolFQ" source="_eYSIQNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0QjcNTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eYQ6IdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0RKgNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eYQ6ItTpEeyzp-OO8aolFQ" text="">
+      <visualProperties xmi:id="_ep8gANTpEeyzp-OO8aolFQ" position="36.56703415234051,0.1891832434685199"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eYQ6I9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0QjcdTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_ep748NTpEeyzp-OO8aolFQ" position="41.61746943969797,-11.730868380397112"/>
+      <visibility xmi:id="_eYQ6JNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYQ6JdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eYQ6JtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="l" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzcEENTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_ep9HENTpEeyzp-OO8aolFQ" position="60.80239173247969,-11.088698526563249"/>
+      <visibility xmi:id="_eYQ6J9TpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eYQ6KNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eYRhMNTpEeyzp-OO8aolFQ" sourceAnchor="0.0,42.0" targetAnchor="246.0,105.0" target="_ea1tANTpEeyzp-OO8aolFQ" source="_eYSIQNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0RKgdTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eYRhMdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0RxkNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eYRhMtTpEeyzp-OO8aolFQ" text="">
+      <visualProperties xmi:id="_ep-VMNTpEeyzp-OO8aolFQ" position="-107.13782885590098,-16.484221478987976"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eYRhM9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0RKgtTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_ep9uINTpEeyzp-OO8aolFQ" position="-55.94240181782144,-33.037830680017265"/>
+      <visibility xmi:id="_eYRhNNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYRhNdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eYRhNtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="mw" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzcEEtTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_ep-VMdTpEeyzp-OO8aolFQ" position="-156.2273606680201,-32.60981095598106"/>
+      <visibility xmi:id="_eYRhN9TpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eYRhONTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eYfjoNTpEeyzp-OO8aolFQ" targetItem="_eYp7udTpEeyzp-OO8aolFQ" sourceItem="_eYe8kNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eYfjodTpEeyzp-OO8aolFQ" sourceAnchor="0.0,89.0" targetAnchor="123.0,211.0" target="_ea1tANTpEeyzp-OO8aolFQ" source="_eYp7udTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0Vb8dTpEeyzp-OO8aolFQ"/>
+    <bendpoints xmi:id="_ep3AcNTpEeyzp-OO8aolFQ" sourceX="-203" targetY="144"/>
+    <stereotypes xmi:id="_eYj1EdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0WDANTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eYjOANTpEeyzp-OO8aolFQ" text="">
+      <visualProperties xmi:id="_ep_jUNTpEeyzp-OO8aolFQ" position="111.35150681801763,-1.3029210643845772"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eYjOAdTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0Vb8tTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_ep-8QNTpEeyzp-OO8aolFQ" position="-61.6482047919576,-12.476431882397378"/>
+      <visibility xmi:id="_eYkcIdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYkcINTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eYj1ENTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="mw" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZznqQNTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqAKYNTpEeyzp-OO8aolFQ" position="98.7948272229311,131.73293768663865"/>
+      <visibility xmi:id="_eYlDMdTpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYlDMNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eYmRUNTpEeyzp-OO8aolFQ" sourceAnchor="0.0,220.0" targetAnchor="207.0,230.0" target="_eaYaCdTpEeyzp-OO8aolFQ" source="_eYp7udTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0WDAdTpEeyzp-OO8aolFQ"/>
+    <bendpoints xmi:id="_ep3ngNTpEeyzp-OO8aolFQ" sourceX="-625" targetY="275"/>
+    <stereotypes xmi:id="_eYmRUdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0WqENTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eYmRUtTpEeyzp-OO8aolFQ" text="">
+      <visualProperties xmi:id="_eqBYgNTpEeyzp-OO8aolFQ" position="532.1066658934541,-2.331504563658484"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eYmRU9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0WDAtTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqAxcNTpEeyzp-OO8aolFQ" position="-63.24776311793996,-12.167049916426265"/>
+      <visibility xmi:id="_eYmRVNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYmRVdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eYmRVtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="gp" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzoRUNTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqBYgdTpEeyzp-OO8aolFQ" position="523.1295903411896,262.7422541565923"/>
+      <visibility xmi:id="_eYmRV9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYmRWNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eYm4YNTpEeyzp-OO8aolFQ" sourceAnchor="449.0,220.0" targetAnchor="155.0,71.0" target="_eaOpANTpEeyzp-OO8aolFQ" source="_eYp7udTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0WqEdTpEeyzp-OO8aolFQ"/>
+    <bendpoints xmi:id="_ep3ngdTpEeyzp-OO8aolFQ" sourceX="545" targetY="275"/>
+    <stereotypes xmi:id="_eYm4YdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0WqE9TpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eYm4YtTpEeyzp-OO8aolFQ" text="">
+      <visualProperties xmi:id="_eqDNsNTpEeyzp-OO8aolFQ" position="-504.4614887489174,-11.867064682131797"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eYm4Y9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0WqEtTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqCmoNTpEeyzp-OO8aolFQ" position="49.50321404996066,-30.43407303586895"/>
+      <visibility xmi:id="_eYm4ZNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYm4ZdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eYm4ZtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="gf" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzoRUtTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqDNsdTpEeyzp-OO8aolFQ" position="-500.54008511466566,244.36239724401884"/>
+      <visibility xmi:id="_eYm4Z9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYm4aNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eYnfcNTpEeyzp-OO8aolFQ" sourceAnchor="0.0,429.0" targetAnchor="165.0,194.0" target="_eZcl49TpEeyzp-OO8aolFQ" source="_eYp7udTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0XRINTpEeyzp-OO8aolFQ"/>
+    <bendpoints xmi:id="_ep4OkNTpEeyzp-OO8aolFQ" sourceX="-1100" targetY="769"/>
+    <stereotypes xmi:id="_eYnfcdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0XRItTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eYnfctTpEeyzp-OO8aolFQ" text="">
+      <visualProperties xmi:id="_eqD0wdTpEeyzp-OO8aolFQ" position="927.7658860429531,-7.932368216444161"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eYnfc9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0XRIdTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqD0wNTpEeyzp-OO8aolFQ" position="-47.334395163652154,-17.04830650659767"/>
+      <visibility xmi:id="_eYnfdNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYnfddTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eYnfdtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="player" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_Zzo4YdTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqD0wtTpEeyzp-OO8aolFQ" position="807.3514706720484,752.1186440179778"/>
+      <visibility xmi:id="_eYnfd9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYnfeNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eYoGgNTpEeyzp-OO8aolFQ" sourceAnchor="0.0,250.0" targetAnchor="0.0,78.0" target="_eZLgKdTpEeyzp-OO8aolFQ" source="_eYp7udTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0XRI9TpEeyzp-OO8aolFQ"/>
+    <bendpoints xmi:id="_ep4OkdTpEeyzp-OO8aolFQ" sourceX="-847" targetX="-484" targetY="668"/>
+    <bendpoints xmi:id="_ep41oNTpEeyzp-OO8aolFQ" sourceX="-847" sourceY="-668" targetX="-484"/>
+    <stereotypes xmi:id="_eYoGgdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0X4MNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eYoGgtTpEeyzp-OO8aolFQ" text="">
+      <visualProperties xmi:id="_eqFC4NTpEeyzp-OO8aolFQ" position="693.0802398675914,330.8978123362299"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eYoGg9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0XRJNTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqEb0NTpEeyzp-OO8aolFQ" position="-51.310801775821254,-12.883331323356288"/>
+      <visibility xmi:id="_eYoGhNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYoGhdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eYoGhtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="enemy" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzpfctTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqFC4dTpEeyzp-OO8aolFQ" position="104.92215515334263,655.0579294810769"/>
+      <visibility xmi:id="_eYoGh9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYoGiNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eYotkNTpEeyzp-OO8aolFQ" sourceAnchor="224.0,441.0" targetAnchor="70.0,80.0" target="_eZkhsNTpEeyzp-OO8aolFQ" source="_eYp7udTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0YfQNTpEeyzp-OO8aolFQ"/>
+    <bendpoints xmi:id="_ep41odTpEeyzp-OO8aolFQ" sourceY="18" targetX="1631" targetY="799"/>
+    <bendpoints xmi:id="_ep41otTpEeyzp-OO8aolFQ" sourceX="-1631" sourceY="18" targetY="799"/>
+    <stereotypes xmi:id="_eYotkdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0YfQtTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eYotktTpEeyzp-OO8aolFQ" text="">
+      <visualProperties xmi:id="_eqGRANTpEeyzp-OO8aolFQ" position="788.7265916487039,86.26747712682993"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eYotk9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0YfQdTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqFp8NTpEeyzp-OO8aolFQ" position="-18.20831798184645,29.199841469948637"/>
+      <visibility xmi:id="_eYotlNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYotldTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eYotltTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="score" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzqGg9TpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqGRAdTpEeyzp-OO8aolFQ" position="1599.027646607245,942.7175547037374"/>
+      <visibility xmi:id="_eYotl9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYotmNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eYpUoNTpEeyzp-OO8aolFQ" source="_eYp7udTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0ZGUNTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eYpUodTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0ZGUtTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eYpUotTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eYpUo9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0ZGUdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eYpUpNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYpUpdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eYpUptTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="timer" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzqtkdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eYpUp9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYpUqNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eYp7sNTpEeyzp-OO8aolFQ" source="_eYp7udTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0ZtYNTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eYp7sdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0ZtYtTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eYp7stTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eYp7s9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0ZtYdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eYp7tNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYp7tdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eYp7ttTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="random" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzrUoNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eYp7t9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYp7uNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eY82odTpEeyzp-OO8aolFQ" targetItem="_eY9dsNTpEeyzp-OO8aolFQ" sourceItem="_eY82oNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZAhANTpEeyzp-OO8aolFQ" targetItem="_eZCWMNTpEeyzp-OO8aolFQ" sourceItem="_eY_58NTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eZAhAdTpEeyzp-OO8aolFQ" sourceAnchor="179.0,0.0" targetAnchor="76.0,211.0" target="_ea1tANTpEeyzp-OO8aolFQ" source="_eZCWMNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0SYoNTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eZBIE9TpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0S_sNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eZBIENTpEeyzp-OO8aolFQ" text="">
+      <visualProperties xmi:id="_eqHfINTpEeyzp-OO8aolFQ" position="-10.610057425307701,-48.091424707599174"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eZBIEdTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0SYodTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqG4ENTpEeyzp-OO8aolFQ" position="2.939087455408071,-71.33478642978724"/>
+      <visibility xmi:id="_eZBvIdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZBvINTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eZBIEtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="mw" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzcrIdTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqHfIdTpEeyzp-OO8aolFQ" position="-6.782968398719447,-63.49669547784001"/>
+      <visibility xmi:id="_eZBvI9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eZBvItTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZFZgdTpEeyzp-OO8aolFQ" targetItem="_eZGAkNTpEeyzp-OO8aolFQ" sourceItem="_eZFZgNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZH1wdTpEeyzp-OO8aolFQ" targetItem="_eZLgKdTpEeyzp-OO8aolFQ" sourceItem="_eZH1wNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eZH1wtTpEeyzp-OO8aolFQ" sourceAnchor="414.0,115.0" targetAnchor="22.0,156.0" target="_eZLgKdTpEeyzp-OO8aolFQ" source="_eaYaCdTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0a7g9TpEeyzp-OO8aolFQ"/>
+    <bendpoints xmi:id="_ep6DwNTpEeyzp-OO8aolFQ" sourceX="77" targetY="170"/>
+    <stereotypes xmi:id="_eZKSA9TpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0bikNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eZKSANTpEeyzp-OO8aolFQ" text="">
+      <visualProperties xmi:id="_eqJUUNTpEeyzp-OO8aolFQ" position="-53.02345694971234,-17.190037252323577"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eZKSAdTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0a7hNTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqItQdTpEeyzp-OO8aolFQ" position="43.265299248567544,-33.00566956242298"/>
+      <visibility xmi:id="_eZK5EdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZK5ENTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eZKSAtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="enemy" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZztJ09TpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqJUUdTpEeyzp-OO8aolFQ" position="-75.89050452927665,135.77075214164046"/>
+      <visibility xmi:id="_eZK5E9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eZK5EtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZIc0dTpEeyzp-OO8aolFQ" targetItem="_eZLgMdTpEeyzp-OO8aolFQ" sourceItem="_eZIc0NTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZIc09TpEeyzp-OO8aolFQ" targetItem="_eZLgN9TpEeyzp-OO8aolFQ" sourceItem="_eZIc0tTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZJD4dTpEeyzp-OO8aolFQ" targetItem="_eZLgP9TpEeyzp-OO8aolFQ" sourceItem="_eZJD4NTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZJq8dTpEeyzp-OO8aolFQ" targetItem="_eZLgV9TpEeyzp-OO8aolFQ" sourceItem="_eZJq8NTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZJq89TpEeyzp-OO8aolFQ" targetItem="_eZLgbNTpEeyzp-OO8aolFQ" sourceItem="_eZJq8tTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eZLgINTpEeyzp-OO8aolFQ" source="_eZLgKdTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0S_sdTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eZLgIdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0TmwNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eZLgItTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eZLgI9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0S_stTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZLgJNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZLgJdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eZLgJtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="a" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzfucdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZLgJ9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZLgKNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZSN0dTpEeyzp-OO8aolFQ" targetItem="_eZV4MNTpEeyzp-OO8aolFQ" sourceItem="_eZSN0NTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_eZS04NTpEeyzp-OO8aolFQ" sourceAnchor="537.0,49.0" targetAnchor="251.0,194.0" superClass="_eZoMENTpEeyzp-OO8aolFQ" subClass="_eZV4MNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_ZyFZMNTpEeyzp-OO8aolFQ"/>
+    <bendpoints xmi:id="_ep5csNTpEeyzp-OO8aolFQ" sourceX="676" targetY="104"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZUDAdTpEeyzp-OO8aolFQ" targetItem="_eZoMENTpEeyzp-OO8aolFQ" sourceItem="_eZUDANTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZUqEdTpEeyzp-OO8aolFQ" targetItem="_eZoMLNTpEeyzp-OO8aolFQ" sourceItem="_eZUqENTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZZikdTpEeyzp-OO8aolFQ" targetItem="_eZcl49TpEeyzp-OO8aolFQ" sourceItem="_eZZikNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eZaJoNTpEeyzp-OO8aolFQ" sourceAnchor="0.0,115.0" targetAnchor="195.0,194.0" target="_eZcl49TpEeyzp-OO8aolFQ" source="_eaYaCdTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0a7gNTpEeyzp-OO8aolFQ"/>
+    <bendpoints xmi:id="_ep5csdTpEeyzp-OO8aolFQ" sourceX="-238" targetY="170"/>
+    <stereotypes xmi:id="_eZb-09TpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0a7gtTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eZb-0NTpEeyzp-OO8aolFQ" text="">
+      <visualProperties xmi:id="_eqIGMdTpEeyzp-OO8aolFQ" position="216.3925695432671,-14.957654869478674"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eZb-0dTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0a7gdTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqIGMNTpEeyzp-OO8aolFQ" position="-54.324535497656484,-33.29524946105302"/>
+      <visibility xmi:id="_eZcl4NTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZb-1NTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eZb-0tTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="player" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZztJ0dTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqItQNTpEeyzp-OO8aolFQ" position="247.6041738302306,137.33833177142412"/>
+      <visibility xmi:id="_eZcl4tTpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eZcl4dTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZaJotTpEeyzp-OO8aolFQ" targetItem="_eZcl-NTpEeyzp-OO8aolFQ" sourceItem="_eZaJodTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZawsdTpEeyzp-OO8aolFQ" targetItem="_eZcmD9TpEeyzp-OO8aolFQ" sourceItem="_eZawsNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZisgdTpEeyzp-OO8aolFQ" targetItem="_eZkhsNTpEeyzp-OO8aolFQ" sourceItem="_eZisgNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eZjTkNTpEeyzp-OO8aolFQ" sourceAnchor="0.0,145.0" targetAnchor="100.0,80.0" target="_eZkhsNTpEeyzp-OO8aolFQ" source="_eaYaCdTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0bikdTpEeyzp-OO8aolFQ"/>
+    <bendpoints xmi:id="_ep6DwdTpEeyzp-OO8aolFQ" sourceX="-545" targetY="200"/>
+    <stereotypes xmi:id="_eZj6otTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0cJoNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eZjTkdTpEeyzp-OO8aolFQ" text="">
+      <visualProperties xmi:id="_eqKicNTpEeyzp-OO8aolFQ" position="454.0491326765558,-1.8990386000119202"/>
+    </nameVisual>
+    <sourceRole xmi:id="_eZj6oNTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0biktTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqJ7YNTpEeyzp-OO8aolFQ" position="-63.25637235416218,-12.538408045990948"/>
+      <visibility xmi:id="_eZj6pNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZj6o9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eZj6odTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="score" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_Zztw4NTpEeyzp-OO8aolFQ"/>
+      <visualProperties xmi:id="_eqKicdTpEeyzp-OO8aolFQ" position="439.94275317816323,187.79532662796493"/>
+      <visibility xmi:id="_eZj6ptTpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eZj6pdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZu5wdTpEeyzp-OO8aolFQ" targetItem="_eZwH79TpEeyzp-OO8aolFQ" sourceItem="_eZu5wNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZ0ZUdTpEeyzp-OO8aolFQ" targetItem="_eZ1AYNTpEeyzp-OO8aolFQ" sourceItem="_eZ0ZUNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZ3codTpEeyzp-OO8aolFQ" targetItem="_eZ4qwNTpEeyzp-OO8aolFQ" sourceItem="_eZ3coNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eZ7uEdTpEeyzp-OO8aolFQ" targetItem="_eZ9jSdTpEeyzp-OO8aolFQ" sourceItem="_eZ7uENTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eZ9jQNTpEeyzp-OO8aolFQ" source="_eZ9jSdTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0TmwdTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eZ9jQdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0UN0NTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eZ9jQtTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eZ9jQ9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0TmwtTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZ9jRNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZ9jRdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eZ9jRtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="rGame" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZziKsdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZ9jR9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZ9jSNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eaB0sdTpEeyzp-OO8aolFQ" targetItem="_eaGGINTpEeyzp-OO8aolFQ" sourceItem="_eaB0sNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eaCbwNTpEeyzp-OO8aolFQ" source="_eaGGINTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0U04dTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eaDp49TpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0Vb8NTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eaDp4NTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eaDp4dTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0U04tTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaEQ8dTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaEQ8NTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eaDp4tTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="a" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzixwdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaEQ89TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaEQ8tTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eaFfENTpEeyzp-OO8aolFQ" source="_eaGGINTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0UN0dTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eaFfEdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0U04NTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eaFfEtTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eaFfE9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0UN0tTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaFfFNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaFfFdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eaFfFtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="file" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZziKs9TpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaFfF9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaFfGNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eaOB8dTpEeyzp-OO8aolFQ" targetItem="_eaOpBdTpEeyzp-OO8aolFQ" sourceItem="_eaOB8NTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eaUIkdTpEeyzp-OO8aolFQ" targetItem="_eaYaItTpEeyzp-OO8aolFQ" sourceItem="_eaUIkNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eaUvodTpEeyzp-OO8aolFQ" targetItem="_eaYaKdTpEeyzp-OO8aolFQ" sourceItem="_eaUvoNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eaVWsNTpEeyzp-OO8aolFQ" targetItem="_eaYaLdTpEeyzp-OO8aolFQ" sourceItem="_eaUvotTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eaVWstTpEeyzp-OO8aolFQ" targetItem="_eaYaM9TpEeyzp-OO8aolFQ" sourceItem="_eaVWsdTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eaV9wdTpEeyzp-OO8aolFQ" targetItem="_eaYaN9TpEeyzp-OO8aolFQ" sourceItem="_eaV9wNTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eaV9w9TpEeyzp-OO8aolFQ" targetItem="_eaYaRNTpEeyzp-OO8aolFQ" sourceItem="_eaV9wtTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eaWk0dTpEeyzp-OO8aolFQ" targetItem="_eaYaS9TpEeyzp-OO8aolFQ" sourceItem="_eaWk0NTpEeyzp-OO8aolFQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eaYaANTpEeyzp-OO8aolFQ" source="_eaYaCdTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0ZtY9TpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eaYaAdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0aUcNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eaYaAtTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eaYaA9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0ZtZNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaYaBNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaYaBdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eaYaBtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="g" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzsiwNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaYaB9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eaYaCNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eakAMNTpEeyzp-OO8aolFQ" target="_eanDidTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0E9QNTpEeyzp-OO8aolFQ"/>
+    <nameVisual xmi:id="_eakAMdTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eakAMtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="btnExit" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzwNJNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eakAM9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eakANNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eakANdTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0FkUNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eakANtTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eakAN9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eaknQNTpEeyzp-OO8aolFQ" source="_eanDidTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0cJodTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eaknQdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0cwsNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eaknQtTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eaknQ9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0cJotTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaknRNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaknRdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eaknRtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="contentPane" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzuX8NTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaknR9TpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eaknSNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ealOUNTpEeyzp-OO8aolFQ" source="_eanDidTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0cwsdTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_ealOUdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0dXwNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ealOUtTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_ealOU9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0cwstTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_ealOVNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_ealOVdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ealOVtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="scrollPane" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzuX8dTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_ealOV9TpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_ealOWNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eal1YNTpEeyzp-OO8aolFQ" source="_eanDidTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0dXwdTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eal1YdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0d-0NTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eal1YtTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eal1Y9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0dXwtTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eal1ZNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eal1ZdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eal1ZtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="list" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzuX8tTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eal1Z9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eal1aNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eamccNTpEeyzp-OO8aolFQ" source="_eanDidTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0d-0dTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eamccdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0fM8NTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eamcctTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eamcc9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0d-0tTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eamcdNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eamcddTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eamcdtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="lblTitle" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_Zzw0MNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eamcd9TpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eamceNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eanDgNTpEeyzp-OO8aolFQ" source="_eanDidTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0fM8dTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eanDgdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0f0ANTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eanDgtTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eanDg9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0fM8tTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eanDhNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eanDhdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eanDhtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="btnReset" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_Zzw0MdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eanDh9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eanDiNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eatxMNTpEeyzp-OO8aolFQ" source="_ea1tANTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0f0AdTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eawNc9TpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0gbENTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eawNcNTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eawNcdTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0f0AtTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eayCodTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eayCoNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eawNctTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="contentPane" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzxbQNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eayCo9TpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eayCotTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eauYQNTpEeyzp-OO8aolFQ" source="_ea1tANTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0gbEdTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eaw0gNTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0hCINTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eawNdNTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eawNddTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0gbEtTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eayCpdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eayCpNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eawNdtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="panel" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzxbQdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaypsdTpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eaypsNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eauYQdTpEeyzp-OO8aolFQ" source="_ea1tANTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0hCIdTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eaw0hNTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0hpMNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eaw0gdTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eaw0gtTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0hCItTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eayps9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaypstTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eaw0g9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="btnStart" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzxbQtTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eayptdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eayptNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eauYQtTpEeyzp-OO8aolFQ" source="_ea1tANTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0hpMdTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eaw0iNTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0hpM9TpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eaw0hdTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eaw0htTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0hpMtTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaypuNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaypt9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eaw0h9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="lblImgLeft" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzyCUdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eazQwdTpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eazQwNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eau_UNTpEeyzp-OO8aolFQ" source="_ea1tANTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0hpNNTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eaxbkdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0iQQNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eaw0idTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eaw0itTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0hpNdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eazQw9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eazQwtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eaxbkNTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="lblTitle" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzyCUtTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaz30dTpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eaz30NTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eau_UdTpEeyzp-OO8aolFQ" source="_ea1tANTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0iQQdTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eaxbldTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0i3UNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eaxbktTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eaxbk9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0iQQtTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaz309TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaz30tTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eaxblNTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="btnExit" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzyCU9TpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaz31dTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaz31NTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_eau_UtTpEeyzp-OO8aolFQ" source="_ea1tANTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0i3UdTpEeyzp-OO8aolFQ"/>
+    <stereotypes xmi:id="_eaxbmdTpEeyzp-OO8aolFQ" name="Reference">
+      <modelElement href="Progetto%20Scuola.uml#_Z0jeYNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_eaxbltTpEeyzp-OO8aolFQ" text=""/>
+    <sourceRole xmi:id="_eaxbl9TpEeyzp-OO8aolFQ" aggregationKind="NONE" name="">
+      <modelElement href="Progetto%20Scuola.uml#_Z0i3UtTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaz32NTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaz319TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_eaxbmNTpEeyzp-OO8aolFQ" aggregationKind="NONE" name="btnLeaderboard" navigable="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzypYdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaz32tTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaz32dTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eavmYNTpEeyzp-OO8aolFQ" targetItem="_ea1tJNTpEeyzp-OO8aolFQ" sourceItem="_eau_U9TpEeyzp-OO8aolFQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eYKMcNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eYKzgNTpEeyzp-OO8aolFQ" text="Classe che funge da controller per la @Leaderboard.&#xD;&#xA;&#xD;&#xA;@author Gruppo 7&#xD;&#xA; *" item="_eYSIQNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0BS4tTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eYMosNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eYMosdTpEeyzp-OO8aolFQ" text="Metodo costruttore della classe @LeaderboardController.&#xD;&#xA;&#x9; * @param mw istanza del @MenuWindow" item="_eYSIXdTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0BS49TpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eYe8kNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eYfjoNTpEeyzp-OO8aolFQ" text="Classe che funge da controller per il pannello di gioco.&#xD;&#xA;&#xD;&#xA;@author Gruppo 7" item="_eYp7udTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0DIFdTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eY82oNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eY82odTpEeyzp-OO8aolFQ" text="Estensione della classe @KeyAdapter per l'implementazione dei suoi metodi,&#xD;&#xA;&#x9; * necessari per l'input dei comandi." item="_eY9dsNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0DIFtTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eY_58NTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZAhANTpEeyzp-OO8aolFQ" text="Classe che funge da controller per il @MenuWindow.&#xA;@author Gruppo 7&#xA; *" item="_eZCWMNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0B58dTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZFZgNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZFZgdTpEeyzp-OO8aolFQ" text="Classe principale per l'avvio del programma.&#xA;&#xA;@author Gruppo 7&#xA; *" item="_eZGAkNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0B58tTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZH1wNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZH1wdTpEeyzp-OO8aolFQ" text="Classe contenente un array di @Enemy.&#xA;@author Gruppo 7&#xA; *" item="_eZLgKdTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0B59dTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZIc0NTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZIc0dTpEeyzp-OO8aolFQ" text="Metodo costruttore del @EnemyArray." item="_eZLgMdTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0ChANTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZIc0tTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZIc09TpEeyzp-OO8aolFQ" text="Ritorno @Enemy presente nella posiozione richiesta.&#xA;&#x9; * @param pos posizione nell'array&#xA;&#x9; * @return elemento nella posizione richiesta" item="_eZLgN9TpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0ChAdTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZJD4NTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZJD4dTpEeyzp-OO8aolFQ" text="Imposta delle nuove specifiche all'elemento nella posizione specificata.&#xA;&#x9; * @param pos posizione nell'array&#xA;&#x9; * @param x posizione nell'asse x&#xA;&#x9; * @param y posizione nell'asse y&#xA;&#x9; * @param sizeX dimensione nell'asse x&#xA;&#x9; * @param sizeY dimensione nell'asse y&#xA;&#x9; * @param speed velocità in pixel/frame&#xA;&#x9; * @param direction direzione dall'altro(T) o dai lati(S)" item="_eZLgP9TpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0ChAtTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZJq8NTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZJq8dTpEeyzp-OO8aolFQ" text="Crea un nuovo @Enemy nell'array.&#xA;&#x9; * @param x posizione nell'asse x&#xA;&#x9; * @param y posizione nell'asse y&#xA;&#x9; * @param sizeX dimensione nell'asse x&#xA;&#x9; * @param sizeY dimensione nell'asse y&#xA;&#x9; * @param speed velocità in pixel/frame&#xA;&#x9; * @param direction direzione dall'altro(T) o dai lati(S)" item="_eZLgV9TpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0ChA9TpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZJq8tTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZJq89TpEeyzp-OO8aolFQ" text="Crea un nuovo @EnemyBlue nell'array.&#xA;&#x9; * @param x posizione nell'asse x&#xA;&#x9; * @param y posizione nell'asse y&#xA;&#x9; * @param sizeX dimensione nell'asse x&#xA;&#x9; * @param sizeY dimensione nell'asse y&#xA;&#x9; * @param speed velocità in pixel/frame&#xA;&#x9; * @param direction direzione dall'altro(T) o dai lati(S)" item="_eZLgbNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0ChBNTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZSN0NTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZSN0dTpEeyzp-OO8aolFQ" text="Variazione di @Enemy.&#xA;@author Gruppo 7&#xA; *" item="_eZV4MNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0ChBdTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZUDANTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZUDAdTpEeyzp-OO8aolFQ" text="Classe contenente tutti i valori dei nemici.&#xA;@author Gruppo 7&#xA; *" item="_eZoMENTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0B589TpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZUqENTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZUqEdTpEeyzp-OO8aolFQ" text="Metodo costruttore della classe @Enemy.&#xA;&#x9; * @param x&#x9;posizione nell'asse x&#xA;&#x9; * @param y posizione nell'asse y&#xA;&#x9; * @param sizeX dimensione nell'asse x&#xA;&#x9; * @param sizeY dimensione nell'asse y&#xA;&#x9; * @param speed&#x9;velocita in pixel/frame&#xA;&#x9; * @param direction&#x9;direzione dall'altro(T) o dai lati(S)" item="_eZoMLNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0B59NTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZZikNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZZikdTpEeyzp-OO8aolFQ" text="Classe contenente i valori del giocatore.&#xA;@author Gruppo 7&#xA; *" item="_eZcl49TpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0ChCNTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZaJodTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZaJotTpEeyzp-OO8aolFQ" text="Metodo costruttore di @Player." item="_eZcl-NTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0ChCdTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZawsNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZawsdTpEeyzp-OO8aolFQ" text="Metodo che ritorna un valore in base al movimento del giocatore.&#xA;&#x9;&#x9; * @return true o false" item="_eZcmD9TpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0ChCtTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZisgNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZisgdTpEeyzp-OO8aolFQ" text="Classe contente i valori del punteggio attuale." item="_eZkhsNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0DIEtTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZu5wNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZu5wdTpEeyzp-OO8aolFQ" text="Metodo costruttore della classe @PlayerScore.&#xD;&#xA;&#x9; * @param nome nome del giocatore&#xD;&#xA;&#x9; * @param score punteggio del giocatore" item="_eZwH79TpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0DIEdTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZ0ZUNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZ0ZUdTpEeyzp-OO8aolFQ" text="Classe che implemente @Comparator, utilizzata per comparare due @PlayerScore.&#xD;&#xA;@author Gruppo 7&#xD;&#xA; *" item="_eZ1AYNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0DIE9TpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZ3coNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZ3codTpEeyzp-OO8aolFQ" text="Classe contenente i valori statici dello Schermo e del tempo di gioco.&#xA;@author Gruppo 7&#xA; *" item="_eZ4qwNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0DIFNTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eZ7uENTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eZ7uEdTpEeyzp-OO8aolFQ" text="Classe contenente i valori statici della Game Area e della PLayer Area.&#xA;@author Gruppo 7&#xA; *" item="_eZ9jSdTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0ChBtTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eaB0sNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eaB0sdTpEeyzp-OO8aolFQ" text="Classe contenente la classifica di @PlayerScore.&#xD;&#xA;@author Gruppo 7&#xD;&#xA; *" item="_eaGGINTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0ChB9TpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eaOB8NTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eaOB8dTpEeyzp-OO8aolFQ" text="Metodo costruttore del @GameFrame.&#xA;&#x9; * @param gp istanza di @GamePanel" item="_eaOpBdTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0BS4dTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eaUIkNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eaUIkdTpEeyzp-OO8aolFQ" text="Metodo costruttore del @GamePanel." item="_eaYaItTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0DvIdTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eaUvoNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eaUvodTpEeyzp-OO8aolFQ" text="Stampa il testo di game over." item="_eaYaKdTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0DvJdTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eaUvotTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eaVWsNTpEeyzp-OO8aolFQ" text="Metodo chimato per mostrare la schermata di game over e richiedere il nome.&#xA;&#x9; * del player.&#xA;&#x9; * &#xA;&#x9; * @return Nome del player" item="_eaYaLdTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0DvJtTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eaVWsdTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eaVWstTpEeyzp-OO8aolFQ" text="Metodo che mostra una conferma dell'inserimento del punteggio." item="_eaYaM9TpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0DvJ9TpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eaV9wNTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eaV9wdTpEeyzp-OO8aolFQ" text="Metodo che chiama i vari metodi necessari al draw del pannello.&#xA;&#x9; * &#xA;&#x9; * @param player istanza di @Player&#xA;&#x9; * @param enemy  istanza di @EnemyArray&#xA;&#x9; * @param score  istanza di @Score" item="_eaYaN9TpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0DvItTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eaV9wtTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eaV9w9TpEeyzp-OO8aolFQ" text="Metodo chiamto per il draw del pannello." item="_eaYaRNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0DvI9TpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eaWk0NTpEeyzp-OO8aolFQ" sourceConnectionVisual="_eaWk0dTpEeyzp-OO8aolFQ" text="Metodo utilizzato per rappresentare a schermo il gioco.&#xA;&#x9; * &#xA;&#x9; * @param g istanza di @Graphics" item="_eaYaS9TpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0DvJNTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_eau_U9TpEeyzp-OO8aolFQ" sourceConnectionVisual="_eavmYNTpEeyzp-OO8aolFQ" text="Create the frame." item="_ea1tJNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Z0GLYdTpEeyzp-OO8aolFQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYSIQNTpEeyzp-OO8aolFQ" comments="_eYKMcNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eYKzgNTpEeyzp-OO8aolFQ" name="LeaderboardController" associationsOut="_eYPsANTpEeyzp-OO8aolFQ _eYQ6INTpEeyzp-OO8aolFQ _eYRhMNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_ZqrwsNTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eYSIQdTpEeyzp-OO8aolFQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_eYSIQtTpEeyzp-OO8aolFQ" label="+"/>
+    <attributes xmi:id="_eYSIQ9TpEeyzp-OO8aolFQ" name="v">
+      <modelElement href="Progetto%20Scuola.uml#_Zza18NTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYSIRNTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzbdANTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYSIRdTpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eYSIRtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eYSIR9TpEeyzp-OO8aolFQ" name="LeaderboardWindow">
+        <modelElement href="Progetto%20Scuola.uml#_ZrzLANTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eYSISNTpEeyzp-OO8aolFQ" name="l">
+      <modelElement href="Progetto%20Scuola.uml#_ZzcEENTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYSISdTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzcEEdTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYSIStTpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eYSIS9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eYSITNTpEeyzp-OO8aolFQ" name="Leaderboard">
+        <modelElement href="Progetto%20Scuola.uml#_ZrK44NTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eYSITdTpEeyzp-OO8aolFQ" name="mw">
+      <modelElement href="Progetto%20Scuola.uml#_ZzcEEtTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYSITtTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzcrINTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYSIT9TpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eYSIUNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eYSIUdTpEeyzp-OO8aolFQ" name="MenuWindow">
+        <modelElement href="Progetto%20Scuola.uml#_Zr4qkNTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eYSIUtTpEeyzp-OO8aolFQ" name="addActionListener">
+      <modelElement href="Progetto%20Scuola.uml#_Zqtl4NTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eYSIU9TpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eYSIVNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eYSIVdTpEeyzp-OO8aolFQ" name="updateList">
+      <modelElement href="Progetto%20Scuola.uml#_ZquM8NTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYSIVtTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_Zqu0ANTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eYSIV9TpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZqvbENTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYSIWNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYSIWdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eYSIWtTpEeyzp-OO8aolFQ" name="updateFromFile">
+      <modelElement href="Progetto%20Scuola.uml#_ZqvbE9TpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eYSIW9TpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eYSIXNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eYSIXdTpEeyzp-OO8aolFQ" comments="_eYMosNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eYMosdTpEeyzp-OO8aolFQ" name="LeaderboardController">
+      <modelElement href="Progetto%20Scuola.uml#_Zx-rgNTpEeyzp-OO8aolFQ"/>
+      <keywords xmi:id="_eYSIXtTpEeyzp-OO8aolFQ" keyword="create"/>
+      <visibility xmi:id="_eYSIX9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYSIYNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eYSIYdTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_Zx-rhNTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eYSIYtTpEeyzp-OO8aolFQ" name="LeaderboardController">
+          <modelElement href="Progetto%20Scuola.uml#_ZqrwsNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eYSIY9TpEeyzp-OO8aolFQ" name="mw">
+        <modelElement href="Progetto%20Scuola.uml#_Zx-rgdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eYSIZNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eYSIZdTpEeyzp-OO8aolFQ" name="MenuWindow">
+          <modelElement href="Progetto%20Scuola.uml#_Zr4qkNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eYSIZtTpEeyzp-OO8aolFQ" name="actionPerformed">
+      <modelElement href="Progetto%20Scuola.uml#_Zy__MNTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYSIZ9TpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_Zy__MtTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eYSIaNTpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZzAmQNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYSIadTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYSIatTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eYSIa9TpEeyzp-OO8aolFQ" name="e">
+        <modelElement href="Progetto%20Scuola.uml#_Zy__MdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eYSIbNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eYSIbdTpEeyzp-OO8aolFQ" name="ActionEvent">
+          <modelElement href="Progetto%20Scuola.uml#_Zx3WwNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eYp7udTpEeyzp-OO8aolFQ" comments="_eYe8kNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eYfjoNTpEeyzp-OO8aolFQ" name="GameController" associationsOut="_eYfjodTpEeyzp-OO8aolFQ _eYmRUNTpEeyzp-OO8aolFQ _eYm4YNTpEeyzp-OO8aolFQ _eYnfcNTpEeyzp-OO8aolFQ _eYoGgNTpEeyzp-OO8aolFQ _eYotkNTpEeyzp-OO8aolFQ _eYpUoNTpEeyzp-OO8aolFQ _eYp7sNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_ZrfB8NTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eYp7utTpEeyzp-OO8aolFQ" position="25.0,233.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_eYp7u9TpEeyzp-OO8aolFQ" label="+"/>
+    <attributes xmi:id="_eYp7vNTpEeyzp-OO8aolFQ" name="mw">
+      <modelElement href="Progetto%20Scuola.uml#_ZznqQNTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYp7vdTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZznqQdTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYp7vtTpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYp7v9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eYp7wNTpEeyzp-OO8aolFQ" name="MenuWindow">
+        <modelElement href="Progetto%20Scuola.uml#_Zr4qkNTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eYp7wdTpEeyzp-OO8aolFQ" name="gp">
+      <modelElement href="Progetto%20Scuola.uml#_ZzoRUNTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYp7wtTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzoRUdTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYp7w9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYp7xNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eYp7xdTpEeyzp-OO8aolFQ" name="GamePanel">
+        <modelElement href="Progetto%20Scuola.uml#_ZrqoINTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eYp7xtTpEeyzp-OO8aolFQ" name="gf">
+      <modelElement href="Progetto%20Scuola.uml#_ZzoRUtTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYp7x9TpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_Zzo4YNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYp7yNTpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYp7ydTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eYqiwNTpEeyzp-OO8aolFQ" name="GameFrame">
+        <modelElement href="Progetto%20Scuola.uml#_ZqjN0NTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eYqiwdTpEeyzp-OO8aolFQ" defaultValue="new Player()" name="player">
+      <modelElement href="Progetto%20Scuola.uml#_Zzo4YdTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYqiwtTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzpfcdTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYqiw9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYqixNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eYqixdTpEeyzp-OO8aolFQ" name="Player">
+        <modelElement href="Progetto%20Scuola.uml#_ZrSNoNTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eYqixtTpEeyzp-OO8aolFQ" defaultValue="new EnemyArray()" name="enemy">
+      <modelElement href="Progetto%20Scuola.uml#_ZzpfctTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYqix9TpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzpfdNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYqiyNTpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYqiydTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eYqiytTpEeyzp-OO8aolFQ" name="EnemyArray">
+        <modelElement href="Progetto%20Scuola.uml#_Zq-EkNTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eYqiy9TpEeyzp-OO8aolFQ" defaultValue="false" name="running">
+      <modelElement href="Progetto%20Scuola.uml#_ZzqGgNTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYqizNTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzqGgtTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYqizdTpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYqiztTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eYqiz9TpEeyzp-OO8aolFQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eYqi0NTpEeyzp-OO8aolFQ" defaultValue="new Score()" name="score">
+      <modelElement href="Progetto%20Scuola.uml#_ZzqGg9TpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYqi0dTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzqtkNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYqi0tTpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYqi09TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eYqi1NTpEeyzp-OO8aolFQ" name="Score">
+        <modelElement href="Progetto%20Scuola.uml#_ZrawgNTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eYqi1dTpEeyzp-OO8aolFQ" name="timer">
+      <modelElement href="Progetto%20Scuola.uml#_ZzqtkdTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYqi1tTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzqtktTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYqi19TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYqi2NTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eYqi2dTpEeyzp-OO8aolFQ" name="Timer">
+        <modelElement href="Progetto%20Scuola.uml#_ZyY7MNTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eYqi2tTpEeyzp-OO8aolFQ" name="random">
+      <modelElement href="Progetto%20Scuola.uml#_ZzrUoNTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYqi29TpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzrUodTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYqi3NTpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYqi3dTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eYqi3tTpEeyzp-OO8aolFQ" name="Random">
+        <modelElement href="Progetto%20Scuola.uml#_ZyYUINTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eYqi39TpEeyzp-OO8aolFQ" name="moveE">
+      <modelElement href="Progetto%20Scuola.uml#_ZzrUotTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYqi4NTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_Zzr7sNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYqi4dTpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eYqi4tTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eYqi49TpEeyzp-OO8aolFQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eYqi5NTpEeyzp-OO8aolFQ" name="startGame">
+      <modelElement href="Progetto%20Scuola.uml#_Zrg3INTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eYqi5dTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqi5tTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eYqi59TpEeyzp-OO8aolFQ" name="newGame">
+      <modelElement href="Progetto%20Scuola.uml#_ZrheMNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eYqi6NTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqi6dTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eYqi6tTpEeyzp-OO8aolFQ" name="createEnemy">
+      <modelElement href="Progetto%20Scuola.uml#_ZrheMdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eYqi69TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqi7NTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eYqi7dTpEeyzp-OO8aolFQ" name="move">
+      <modelElement href="Progetto%20Scuola.uml#_ZrheMtTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eYqi7tTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqi79TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eYqi8NTpEeyzp-OO8aolFQ" name="moveEnemy">
+      <modelElement href="Progetto%20Scuola.uml#_ZrheM9TpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eYqi8dTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqi8tTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eYqi89TpEeyzp-OO8aolFQ" name="checkCollisions">
+      <modelElement href="Progetto%20Scuola.uml#_ZriFQNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eYqi9NTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqi9dTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eYqi9tTpEeyzp-OO8aolFQ" name="loadOnFile">
+      <modelElement href="Progetto%20Scuola.uml#_ZriFQdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eYqi99TpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eYqi-NTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eYqi-dTpEeyzp-OO8aolFQ" name="name">
+        <modelElement href="Progetto%20Scuola.uml#_ZriFQtTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eYqi-tTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eYqi-9TpEeyzp-OO8aolFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eYqi_NTpEeyzp-OO8aolFQ" name="gameOver">
+      <modelElement href="Progetto%20Scuola.uml#_ZrisUNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eYqi_dTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqi_tTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eYqi_9TpEeyzp-OO8aolFQ" name="GameController">
+      <modelElement href="Progetto%20Scuola.uml#_ZyawYNTpEeyzp-OO8aolFQ"/>
+      <keywords xmi:id="_eYqjANTpEeyzp-OO8aolFQ" keyword="create"/>
+      <visibility xmi:id="_eYqjAdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqjAtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eYqjA9TpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZyawZdTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eYqjBNTpEeyzp-OO8aolFQ" name="GameController">
+          <modelElement href="Progetto%20Scuola.uml#_ZrfB8NTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eYqjBdTpEeyzp-OO8aolFQ" name="mw">
+        <modelElement href="Progetto%20Scuola.uml#_ZyawYdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eYqjBtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eYqjB9TpEeyzp-OO8aolFQ" name="MenuWindow">
+          <modelElement href="Progetto%20Scuola.uml#_Zr4qkNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eYqjCNTpEeyzp-OO8aolFQ" name="gp">
+        <modelElement href="Progetto%20Scuola.uml#_ZyawYtTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eYqjCdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eYqjCtTpEeyzp-OO8aolFQ" name="GamePanel">
+          <modelElement href="Progetto%20Scuola.uml#_ZrqoINTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eYqjC9TpEeyzp-OO8aolFQ" name="actionPerformed">
+      <modelElement href="Progetto%20Scuola.uml#_ZzH7ANTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eYqjDNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqjDdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eYqjDtTpEeyzp-OO8aolFQ" name="e">
+        <modelElement href="Progetto%20Scuola.uml#_ZzH7AdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eYqjD9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eYqjENTpEeyzp-OO8aolFQ" name="ActionEvent">
+          <modelElement href="Progetto%20Scuola.uml#_Zx3WwNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eYqjEdTpEeyzp-OO8aolFQ" name="windowOpened">
+      <modelElement href="Progetto%20Scuola.uml#_ZzKXQNTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYqjEtTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzKXQtTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eYqjE9TpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZzK-UNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYqjFNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqjFdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eYqjFtTpEeyzp-OO8aolFQ" name="e">
+        <modelElement href="Progetto%20Scuola.uml#_ZzKXQdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eYqjF9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eYqjGNTpEeyzp-OO8aolFQ" name="WindowEvent">
+          <modelElement href="Progetto%20Scuola.uml#_ZyXGAdTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eYqjGdTpEeyzp-OO8aolFQ" name="windowClosing">
+      <modelElement href="Progetto%20Scuola.uml#_ZzK-UtTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYqjGtTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzLlYdTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eYqjG9TpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZzLlYtTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYqjHNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqjHdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eYqjHtTpEeyzp-OO8aolFQ" name="e">
+        <modelElement href="Progetto%20Scuola.uml#_ZzLlYNTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eYqjH9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eYqjINTpEeyzp-OO8aolFQ" name="WindowEvent">
+          <modelElement href="Progetto%20Scuola.uml#_ZyXGAdTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eYqjIdTpEeyzp-OO8aolFQ" name="windowClosed">
+      <modelElement href="Progetto%20Scuola.uml#_ZzMMcNTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYqjItTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzMMctTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eYqjI9TpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZzMzgNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYqjJNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqjJdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eYqjJtTpEeyzp-OO8aolFQ" name="e">
+        <modelElement href="Progetto%20Scuola.uml#_ZzMMcdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eYqjJ9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eYqjKNTpEeyzp-OO8aolFQ" name="WindowEvent">
+          <modelElement href="Progetto%20Scuola.uml#_ZyXGAdTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eYqjKdTpEeyzp-OO8aolFQ" name="windowIconified">
+      <modelElement href="Progetto%20Scuola.uml#_ZzMzgtTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYqjKtTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzNakNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eYqjK9TpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZzNakdTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYqjLNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqjLdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eYqjLtTpEeyzp-OO8aolFQ" name="e">
+        <modelElement href="Progetto%20Scuola.uml#_ZzMzg9TpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eYqjL9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eYqjMNTpEeyzp-OO8aolFQ" name="WindowEvent">
+          <modelElement href="Progetto%20Scuola.uml#_ZyXGAdTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eYqjMdTpEeyzp-OO8aolFQ" name="windowDeiconified">
+      <modelElement href="Progetto%20Scuola.uml#_ZzOBoNTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYqjMtTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzOBotTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eYqjM9TpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZzOosNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYqjNNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqjNdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eYqjNtTpEeyzp-OO8aolFQ" name="e">
+        <modelElement href="Progetto%20Scuola.uml#_ZzOBodTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eYqjN9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eYqjONTpEeyzp-OO8aolFQ" name="WindowEvent">
+          <modelElement href="Progetto%20Scuola.uml#_ZyXGAdTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eYqjOdTpEeyzp-OO8aolFQ" name="windowActivated">
+      <modelElement href="Progetto%20Scuola.uml#_ZzOostTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYqjOtTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzPPwNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eYqjO9TpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZzPPwdTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYqjPNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqjPdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eYqjPtTpEeyzp-OO8aolFQ" name="e">
+        <modelElement href="Progetto%20Scuola.uml#_ZzOos9TpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eYqjP9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eYqjQNTpEeyzp-OO8aolFQ" name="WindowEvent">
+          <modelElement href="Progetto%20Scuola.uml#_ZyXGAdTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eYqjQdTpEeyzp-OO8aolFQ" name="windowDeactivated">
+      <modelElement href="Progetto%20Scuola.uml#_ZzP20NTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eYqjQtTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzP20tTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eYqjQ9TpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZzQd4NTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eYqjRNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eYqjRdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eYqjRtTpEeyzp-OO8aolFQ" name="e">
+        <modelElement href="Progetto%20Scuola.uml#_ZzP20dTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eYqjR9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eYqjSNTpEeyzp-OO8aolFQ" name="WindowEvent">
+          <modelElement href="Progetto%20Scuola.uml#_ZyXGAdTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eY9dsNTpEeyzp-OO8aolFQ" comments="_eY82oNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eY82odTpEeyzp-OO8aolFQ" name="MyKeyAdapter">
+    <modelElement href="Progetto%20Scuola.uml#_ZrjTYNTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eY9dsdTpEeyzp-OO8aolFQ" position="136.0,731.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_eY9dstTpEeyzp-OO8aolFQ" label="+"/>
+    <operations xmi:id="_eY9ds9TpEeyzp-OO8aolFQ" name="keyPressed">
+      <modelElement href="Progetto%20Scuola.uml#_ZzIiENTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eY9dtNTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzIiEtTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eY9dtdTpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZzJJINTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eY9dttTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eY9dt9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eY9duNTpEeyzp-OO8aolFQ" name="e">
+        <modelElement href="Progetto%20Scuola.uml#_ZzIiEdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eY9dudTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eY9dutTpEeyzp-OO8aolFQ" name="KeyEvent">
+          <modelElement href="Progetto%20Scuola.uml#_ZyWe8dTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eY9du9TpEeyzp-OO8aolFQ" name="keyReleased">
+      <modelElement href="Progetto%20Scuola.uml#_ZzJJItTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eY9dvNTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzJwMNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eY9dvdTpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZzJwMdTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eY9dvtTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eY9dv9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eY9dwNTpEeyzp-OO8aolFQ" name="e">
+        <modelElement href="Progetto%20Scuola.uml#_ZzJJI9TpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eY9dwdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eY9dwtTpEeyzp-OO8aolFQ" name="KeyEvent">
+          <modelElement href="Progetto%20Scuola.uml#_ZyWe8dTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eZCWMNTpEeyzp-OO8aolFQ" comments="_eY_58NTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZAhANTpEeyzp-OO8aolFQ" name="MenuController" associationsOut="_eZAhAdTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_ZqzFcNTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eZCWMdTpEeyzp-OO8aolFQ" position="-404.0,337.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_eZCWMtTpEeyzp-OO8aolFQ" label="+"/>
+    <attributes xmi:id="_eZCWM9TpEeyzp-OO8aolFQ" name="mw">
+      <modelElement href="Progetto%20Scuola.uml#_ZzcrIdTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eZCWNNTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzdSMNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eZCWNdTpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eZCWNtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZCWN9TpEeyzp-OO8aolFQ" name="MenuWindow">
+        <modelElement href="Progetto%20Scuola.uml#_Zr4qkNTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eZCWONTpEeyzp-OO8aolFQ" name="eventi">
+      <modelElement href="Progetto%20Scuola.uml#_Zq0TkNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZCWOdTpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eZCWOtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eZCWO9TpEeyzp-OO8aolFQ" name="MenuController">
+      <modelElement href="Progetto%20Scuola.uml#_ZyAgsNTpEeyzp-OO8aolFQ"/>
+      <keywords xmi:id="_eZCWPNTpEeyzp-OO8aolFQ" keyword="create"/>
+      <visibility xmi:id="_eZCWPdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZCWPtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eZCWP9TpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZyBHwtTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eZCWQNTpEeyzp-OO8aolFQ" name="MenuController">
+          <modelElement href="Progetto%20Scuola.uml#_ZqzFcNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eZCWQdTpEeyzp-OO8aolFQ" name="mw">
+        <modelElement href="Progetto%20Scuola.uml#_ZyAgsdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZCWQtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZCWQ9TpEeyzp-OO8aolFQ" name="MenuWindow">
+          <modelElement href="Progetto%20Scuola.uml#_Zr4qkNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eZCWRNTpEeyzp-OO8aolFQ" name="actionPerformed">
+      <modelElement href="Progetto%20Scuola.uml#_ZzBNUdTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eZCWRdTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzB0YdTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eZCWRtTpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZzB0YtTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eZCWR9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZCWSNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eZCWSdTpEeyzp-OO8aolFQ" name="e">
+        <modelElement href="Progetto%20Scuola.uml#_ZzB0YNTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZCWStTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZCWS9TpEeyzp-OO8aolFQ" name="ActionEvent">
+          <modelElement href="Progetto%20Scuola.uml#_Zx3WwNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eZGAkNTpEeyzp-OO8aolFQ" comments="_eZFZgNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZFZgdTpEeyzp-OO8aolFQ" name="ProgettoMain">
+    <modelElement href="Progetto%20Scuola.uml#_Zq2IwNTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eZGAkdTpEeyzp-OO8aolFQ" position="550.0,368.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_eZGAktTpEeyzp-OO8aolFQ" label="+"/>
+    <operations xmi:id="_eZGAk9TpEeyzp-OO8aolFQ" name="main" staticOperation="true">
+      <modelElement href="Progetto%20Scuola.uml#_Zq2v0NTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZGAlNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZGAldTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eZGAltTpEeyzp-OO8aolFQ" name="args">
+        <modelElement href="Progetto%20Scuola.uml#_Zq2v0dTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZGAl9TpEeyzp-OO8aolFQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_eZGAmNTpEeyzp-OO8aolFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eZLgKdTpEeyzp-OO8aolFQ" comments="_eZH1wNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZH1wdTpEeyzp-OO8aolFQ" name="EnemyArray" associationsIn="_eYoGgNTpEeyzp-OO8aolFQ _eZH1wtTpEeyzp-OO8aolFQ" associationsOut="_eZLgINTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Zq-EkNTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eZLgKtTpEeyzp-OO8aolFQ" position="-338.0,-263.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_eZLgK9TpEeyzp-OO8aolFQ" label="+"/>
+    <attributes xmi:id="_eZLgLNTpEeyzp-OO8aolFQ" name="a">
+      <modelElement href="Progetto%20Scuola.uml#_ZzfucdTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eZLgLdTpEeyzp-OO8aolFQ" name="Generics">
+        <modelElement href="Progetto%20Scuola.uml#_ZzgVgNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eZLgLtTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZLgL9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZLgMNTpEeyzp-OO8aolFQ" name="ArrayList">
+        <modelElement href="Progetto%20Scuola.uml#_ZyCV4NTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eZLgMdTpEeyzp-OO8aolFQ" comments="_eZIc0NTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZIc0dTpEeyzp-OO8aolFQ" name="EnemyArray">
+      <modelElement href="Progetto%20Scuola.uml#_Zq_SsNTpEeyzp-OO8aolFQ"/>
+      <keywords xmi:id="_eZLgMtTpEeyzp-OO8aolFQ" keyword="create"/>
+      <visibility xmi:id="_eZLgM9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZLgNNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eZLgNdTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_Zq_5wtTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eZLgNtTpEeyzp-OO8aolFQ" name="EnemyArray">
+          <modelElement href="Progetto%20Scuola.uml#_Zq-EkNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eZLgN9TpEeyzp-OO8aolFQ" comments="_eZIc0tTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZIc09TpEeyzp-OO8aolFQ" name="getEnemy">
+      <modelElement href="Progetto%20Scuola.uml#_ZrAg0NTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZLgONTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZLgOdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eZLgOtTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZyELENTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eZLgO9TpEeyzp-OO8aolFQ" name="Enemy">
+          <modelElement href="Progetto%20Scuola.uml#_Zq398dTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eZLgPNTpEeyzp-OO8aolFQ" name="pos">
+        <modelElement href="Progetto%20Scuola.uml#_ZrAg0dTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgPdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgPtTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eZLgP9TpEeyzp-OO8aolFQ" comments="_eZJD4NTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZJD4dTpEeyzp-OO8aolFQ" name="setEnemy">
+      <modelElement href="Progetto%20Scuola.uml#_ZrBu8NTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZLgQNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZLgQdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eZLgQtTpEeyzp-OO8aolFQ" name="pos">
+        <modelElement href="Progetto%20Scuola.uml#_ZrBu8dTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgQ9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgRNTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLgRdTpEeyzp-OO8aolFQ" name="x">
+        <modelElement href="Progetto%20Scuola.uml#_ZrBu8tTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgRtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgR9TpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLgSNTpEeyzp-OO8aolFQ" name="y">
+        <modelElement href="Progetto%20Scuola.uml#_ZrBu89TpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgSdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgStTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLgS9TpEeyzp-OO8aolFQ" name="sizeX">
+        <modelElement href="Progetto%20Scuola.uml#_ZrBu9NTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgTNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgTdTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLgTtTpEeyzp-OO8aolFQ" name="sizeY">
+        <modelElement href="Progetto%20Scuola.uml#_ZrBu9dTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgT9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgUNTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLgUdTpEeyzp-OO8aolFQ" name="speed">
+        <modelElement href="Progetto%20Scuola.uml#_ZrBu9tTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgUtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgU9TpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLgVNTpEeyzp-OO8aolFQ" name="direction">
+        <modelElement href="Progetto%20Scuola.uml#_ZrBu99TpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgVdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgVtTpEeyzp-OO8aolFQ" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eZLgV9TpEeyzp-OO8aolFQ" comments="_eZJq8NTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZJq8dTpEeyzp-OO8aolFQ" name="create">
+      <modelElement href="Progetto%20Scuola.uml#_ZrCWANTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZLgWNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZLgWdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eZLgWtTpEeyzp-OO8aolFQ" name="x">
+        <modelElement href="Progetto%20Scuola.uml#_ZrCWAdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgW9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgXNTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLgXdTpEeyzp-OO8aolFQ" name="y">
+        <modelElement href="Progetto%20Scuola.uml#_ZrCWAtTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgXtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgX9TpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLgYNTpEeyzp-OO8aolFQ" name="sizeX">
+        <modelElement href="Progetto%20Scuola.uml#_ZrC9ENTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgYdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgYtTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLgY9TpEeyzp-OO8aolFQ" name="sizeY">
+        <modelElement href="Progetto%20Scuola.uml#_ZrC9EdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgZNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgZdTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLgZtTpEeyzp-OO8aolFQ" name="speed">
+        <modelElement href="Progetto%20Scuola.uml#_ZrC9EtTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgZ9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgaNTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLgadTpEeyzp-OO8aolFQ" name="direction">
+        <modelElement href="Progetto%20Scuola.uml#_ZrC9E9TpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgatTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLga9TpEeyzp-OO8aolFQ" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eZLgbNTpEeyzp-OO8aolFQ" comments="_eZJq8tTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZJq89TpEeyzp-OO8aolFQ" name="createB">
+      <modelElement href="Progetto%20Scuola.uml#_ZrDkINTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZLgbdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZLgbtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eZLgb9TpEeyzp-OO8aolFQ" name="x">
+        <modelElement href="Progetto%20Scuola.uml#_ZrDkIdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgcNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgcdTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLgctTpEeyzp-OO8aolFQ" name="y">
+        <modelElement href="Progetto%20Scuola.uml#_ZrDkItTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgc9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgdNTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLgddTpEeyzp-OO8aolFQ" name="sizeX">
+        <modelElement href="Progetto%20Scuola.uml#_ZrDkI9TpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgdtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgd9TpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLgeNTpEeyzp-OO8aolFQ" name="sizeY">
+        <modelElement href="Progetto%20Scuola.uml#_ZrDkJNTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgedTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgetTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLge9TpEeyzp-OO8aolFQ" name="speed">
+        <modelElement href="Progetto%20Scuola.uml#_ZrDkJdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgfNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLgfdTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZLgftTpEeyzp-OO8aolFQ" name="direction">
+        <modelElement href="Progetto%20Scuola.uml#_ZrDkJtTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZLgf9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZLggNTpEeyzp-OO8aolFQ" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eZV4MNTpEeyzp-OO8aolFQ" comments="_eZSN0NTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZSN0dTpEeyzp-OO8aolFQ" name="EnemyBlue" generalizations="_eZS04NTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_ZrEyQNTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eZV4MdTpEeyzp-OO8aolFQ" position="-49.0,875.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_eZV4MtTpEeyzp-OO8aolFQ" label="+"/>
+    <attributes xmi:id="_eZV4M9TpEeyzp-OO8aolFQ" defaultValue="false" name="scored">
+      <modelElement href="Progetto%20Scuola.uml#_Zzg8kNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZV4NNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZV4NdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZV4NtTpEeyzp-OO8aolFQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eZV4N9TpEeyzp-OO8aolFQ" name="EnemyBlue">
+      <modelElement href="Progetto%20Scuola.uml#_ZrGAYNTpEeyzp-OO8aolFQ"/>
+      <keywords xmi:id="_eZV4ONTpEeyzp-OO8aolFQ" keyword="create"/>
+      <visibility xmi:id="_eZV4OdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZV4OtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eZV4O9TpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZrGAadTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eZV4PNTpEeyzp-OO8aolFQ" name="EnemyBlue">
+          <modelElement href="Progetto%20Scuola.uml#_ZrEyQNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eZV4PdTpEeyzp-OO8aolFQ" name="x">
+        <modelElement href="Progetto%20Scuola.uml#_ZrGAYdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZV4PtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZV4P9TpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZV4QNTpEeyzp-OO8aolFQ" name="y">
+        <modelElement href="Progetto%20Scuola.uml#_ZrGAYtTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZV4QdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZV4QtTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZV4Q9TpEeyzp-OO8aolFQ" name="sizeX">
+        <modelElement href="Progetto%20Scuola.uml#_ZrGAY9TpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZV4RNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZV4RdTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZV4RtTpEeyzp-OO8aolFQ" name="sizeY">
+        <modelElement href="Progetto%20Scuola.uml#_ZrGAZNTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZV4R9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZV4SNTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZV4SdTpEeyzp-OO8aolFQ" name="speed">
+        <modelElement href="Progetto%20Scuola.uml#_ZrGAZdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZV4StTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZV4S9TpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZV4TNTpEeyzp-OO8aolFQ" name="direction">
+        <modelElement href="Progetto%20Scuola.uml#_ZrGAZtTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZV4TdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZV4TtTpEeyzp-OO8aolFQ" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eZV4T9TpEeyzp-OO8aolFQ" name="isBlue">
+      <modelElement href="Progetto%20Scuola.uml#_ZrGncNTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eZV4UNTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZrHOgNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eZV4UdTpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZrH1kNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eZV4UtTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZV4U9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eZV4VNTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZrGncdTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eZV4VdTpEeyzp-OO8aolFQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eZcl49TpEeyzp-OO8aolFQ" comments="_eZZikNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZZikdTpEeyzp-OO8aolFQ" name="Player" associationsIn="_eYnfcNTpEeyzp-OO8aolFQ _eZaJoNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_ZrSNoNTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eZcl5NTpEeyzp-OO8aolFQ" position="-1240.0,-301.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_eZcl5dTpEeyzp-OO8aolFQ" label="+"/>
+    <attributes xmi:id="_eZcl5tTpEeyzp-OO8aolFQ" name="x">
+      <modelElement href="Progetto%20Scuola.uml#_Zzj_4NTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZcl59TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZcl6NTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZcl6dTpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZcl6tTpEeyzp-OO8aolFQ" name="y">
+      <modelElement href="Progetto%20Scuola.uml#_Zzj_4dTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZcl69TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZcl7NTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZcl7dTpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZcl7tTpEeyzp-OO8aolFQ" defaultValue="{false, false, false, false }" name="direction">
+      <modelElement href="Progetto%20Scuola.uml#_Zzj_4tTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eZcl79TpEeyzp-OO8aolFQ" name="Array">
+        <modelElement href="Progetto%20Scuola.uml#_Zzkm8dTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eZcl8NTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzlOANTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eZcl8dTpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eZcl8tTpEeyzp-OO8aolFQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_eZcl89TpEeyzp-OO8aolFQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZcl9NTpEeyzp-OO8aolFQ" name="shift">
+      <modelElement href="Progetto%20Scuola.uml#_ZzlOAdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZcl9dTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZcl9tTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZcl99TpEeyzp-OO8aolFQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eZcl-NTpEeyzp-OO8aolFQ" comments="_eZaJodTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZaJotTpEeyzp-OO8aolFQ" name="Player">
+      <modelElement href="Progetto%20Scuola.uml#_ZrTbwNTpEeyzp-OO8aolFQ"/>
+      <keywords xmi:id="_eZcl-dTpEeyzp-OO8aolFQ" keyword="create"/>
+      <visibility xmi:id="_eZcl-tTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZcl-9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eZcl_NTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZrTbw9TpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eZcl_dTpEeyzp-OO8aolFQ" name="Player">
+          <modelElement href="Progetto%20Scuola.uml#_ZrSNoNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eZcl_tTpEeyzp-OO8aolFQ" name="getDirection">
+      <modelElement href="Progetto%20Scuola.uml#_ZrUC0NTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZcl_9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZcmANTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eZcmAdTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZrUC0tTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eZcmAtTpEeyzp-OO8aolFQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eZcmA9TpEeyzp-OO8aolFQ" name="numb">
+        <modelElement href="Progetto%20Scuola.uml#_ZrUC0dTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZcmBNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZcmBdTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eZcmBtTpEeyzp-OO8aolFQ" name="setDirection">
+      <modelElement href="Progetto%20Scuola.uml#_ZrUp4NTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZcmB9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZcmCNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eZcmCdTpEeyzp-OO8aolFQ" name="numb">
+        <modelElement href="Progetto%20Scuola.uml#_ZrUp4dTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZcmCtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZcmC9TpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZcmDNTpEeyzp-OO8aolFQ" name="direction">
+        <modelElement href="Progetto%20Scuola.uml#_ZrUp4tTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZcmDdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZcmDtTpEeyzp-OO8aolFQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eZcmD9TpEeyzp-OO8aolFQ" comments="_eZawsNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZawsdTpEeyzp-OO8aolFQ" name="isMoving">
+      <modelElement href="Progetto%20Scuola.uml#_ZrUp49TpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZcmENTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZcmEdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eZcmEtTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZrVQ8NTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eZcmE9TpEeyzp-OO8aolFQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eZkhsNTpEeyzp-OO8aolFQ" comments="_eZisgNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZisgdTpEeyzp-OO8aolFQ" name="Score" associationsIn="_eYotkNTpEeyzp-OO8aolFQ _eZjTkNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_ZrawgNTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eZkhsdTpEeyzp-OO8aolFQ" position="-1452.0,-187.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_eZkhstTpEeyzp-OO8aolFQ" label="+"/>
+    <attributes xmi:id="_eZkhs9TpEeyzp-OO8aolFQ" name="score">
+      <modelElement href="Progetto%20Scuola.uml#_ZzmcINTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZkhtNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZkhtdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZkhttTpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eZkht9TpEeyzp-OO8aolFQ" name="Score">
+      <modelElement href="Progetto%20Scuola.uml#_ZrbXkNTpEeyzp-OO8aolFQ"/>
+      <keywords xmi:id="_eZkhuNTpEeyzp-OO8aolFQ" keyword="create"/>
+      <visibility xmi:id="_eZkhudTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZkhutTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eZkhu9TpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZrbXk9TpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eZkhvNTpEeyzp-OO8aolFQ" name="Score">
+          <modelElement href="Progetto%20Scuola.uml#_ZrawgNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eZoMENTpEeyzp-OO8aolFQ" comments="_eZUDANTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZUDAdTpEeyzp-OO8aolFQ" name="Enemy" subclassedBy="_eZS04NTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Zq398dTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eZoMEdTpEeyzp-OO8aolFQ" position="913.0,626.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_eZoMEtTpEeyzp-OO8aolFQ" label="+"/>
+    <attributes xmi:id="_eZoME9TpEeyzp-OO8aolFQ" name="x">
+      <modelElement href="Progetto%20Scuola.uml#_ZzdSMdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZoMFNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZoMFdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZoMFtTpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZoMF9TpEeyzp-OO8aolFQ" name="y">
+      <modelElement href="Progetto%20Scuola.uml#_Zzd5QNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZoMGNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZoMGdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZoMGtTpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZoMG9TpEeyzp-OO8aolFQ" name="sizeX">
+      <modelElement href="Progetto%20Scuola.uml#_Zzd5QdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZoMHNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZoMHdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZoMHtTpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZoMH9TpEeyzp-OO8aolFQ" name="sizeY">
+      <modelElement href="Progetto%20Scuola.uml#_Zzd5QtTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZoMINTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZoMIdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZoMItTpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZoMI9TpEeyzp-OO8aolFQ" name="speed">
+      <modelElement href="Progetto%20Scuola.uml#_Zzd5Q9TpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZoMJNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZoMJdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZoMJtTpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZoMJ9TpEeyzp-OO8aolFQ" name="direction">
+      <modelElement href="Progetto%20Scuola.uml#_ZzegUNTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eZoMKNTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzegUdTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eZoMKdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZoMKtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZoMK9TpEeyzp-OO8aolFQ" name="char">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eZoMLNTpEeyzp-OO8aolFQ" comments="_eZUqENTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZUqEdTpEeyzp-OO8aolFQ" name="Enemy">
+      <modelElement href="Progetto%20Scuola.uml#_Zq6aMNTpEeyzp-OO8aolFQ"/>
+      <keywords xmi:id="_eZoMLdTpEeyzp-OO8aolFQ" keyword="create"/>
+      <visibility xmi:id="_eZoMLtTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZoML9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eZoMMNTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_Zq7BRdTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eZoMMdTpEeyzp-OO8aolFQ" name="Enemy">
+          <modelElement href="Progetto%20Scuola.uml#_Zq398dTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eZoMMtTpEeyzp-OO8aolFQ" name="x">
+        <modelElement href="Progetto%20Scuola.uml#_Zq6aMdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZoMM9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZoMNNTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZoMNdTpEeyzp-OO8aolFQ" name="y">
+        <modelElement href="Progetto%20Scuola.uml#_Zq6aMtTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZoMNtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZoMN9TpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZoMONTpEeyzp-OO8aolFQ" name="sizeX">
+        <modelElement href="Progetto%20Scuola.uml#_Zq6aM9TpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZoMOdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZoMOtTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZoMO9TpEeyzp-OO8aolFQ" name="sizeY">
+        <modelElement href="Progetto%20Scuola.uml#_Zq7BQNTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZoMPNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZoMPdTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZoMPtTpEeyzp-OO8aolFQ" name="speed">
+        <modelElement href="Progetto%20Scuola.uml#_Zq7BQdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZoMP9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZoMQNTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZoMQdTpEeyzp-OO8aolFQ" name="direction">
+        <modelElement href="Progetto%20Scuola.uml#_Zq7BQtTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZoMQtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZoMQ9TpEeyzp-OO8aolFQ" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eZoMRNTpEeyzp-OO8aolFQ" name="isBlue">
+      <modelElement href="Progetto%20Scuola.uml#_Zq7oUNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZoMRdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZoMRtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eZoMR9TpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_Zq8PYNTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eZoMSNTpEeyzp-OO8aolFQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eZwH4NTpEeyzp-OO8aolFQ" name="PlayerScore">
+    <modelElement href="Progetto%20Scuola.uml#_ZrWfENTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eZwH4dTpEeyzp-OO8aolFQ" position="-412.0,512.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eZwH4tTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+      <modelElement href="Progetto%20Scuola.uml#_ZrXGINTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_eZwH49TpEeyzp-OO8aolFQ" name="Annotations">
+      <modelElement href="Progetto%20Scuola.uml#_ZrZiYNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <visibility xmi:id="_eZwH5NTpEeyzp-OO8aolFQ" label="+"/>
+    <attributes xmi:id="_eZwH5dTpEeyzp-OO8aolFQ" name="nome">
+      <modelElement href="Progetto%20Scuola.uml#_Zzl1ENTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eZwH5tTpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_Zzl1EdTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eZwH59TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZwH6NTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZwH6dTpEeyzp-OO8aolFQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZwH6tTpEeyzp-OO8aolFQ" name="score">
+      <modelElement href="Progetto%20Scuola.uml#_Zzl1EtTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eZwH69TpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_Zzl1E9TpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eZwH7NTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZwH7dTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZwH7tTpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eZwH79TpEeyzp-OO8aolFQ" comments="_eZu5wNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZu5wdTpEeyzp-OO8aolFQ" name="PlayerScore">
+      <modelElement href="Progetto%20Scuola.uml#_ZrXtMNTpEeyzp-OO8aolFQ"/>
+      <keywords xmi:id="_eZwH8NTpEeyzp-OO8aolFQ" keyword="create"/>
+      <stereotypes xmi:id="_eZwH8dTpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZrYUQNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eZwH8tTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZwH89TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eZwH9NTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZrXtNdTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eZwH9dTpEeyzp-OO8aolFQ" name="PlayerScore">
+          <modelElement href="Progetto%20Scuola.uml#_ZrWfENTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eZwH9tTpEeyzp-OO8aolFQ" name="nome">
+        <modelElement href="Progetto%20Scuola.uml#_ZrXtMdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZwH99TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZwH-NTpEeyzp-OO8aolFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZwH-dTpEeyzp-OO8aolFQ" name="score">
+        <modelElement href="Progetto%20Scuola.uml#_ZrXtMtTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZwH-tTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZwH-9TpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eZwH_NTpEeyzp-OO8aolFQ" name="toString">
+      <modelElement href="Progetto%20Scuola.uml#_ZrYUQdTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eZwH_dTpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZrY7UdTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eZwH_tTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZwH_9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eZwIANTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZrY7UNTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eZwIAdTpEeyzp-OO8aolFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eZ1AYNTpEeyzp-OO8aolFQ" comments="_eZ0ZUNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZ0ZUdTpEeyzp-OO8aolFQ" name="ScoreComparator">
+    <modelElement href="Progetto%20Scuola.uml#_Zrb-oNTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eZ1AYdTpEeyzp-OO8aolFQ" position="546.0,482.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_eZ1AYtTpEeyzp-OO8aolFQ" label="+"/>
+    <operations xmi:id="_eZ1AY9TpEeyzp-OO8aolFQ" name="compare">
+      <modelElement href="Progetto%20Scuola.uml#_ZyS0kNTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eZ1AZNTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZyTboNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eZ1AZdTpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZyTbodTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eZ1AZtTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZ1AZ9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eZ1AaNTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZyS0k9TpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eZ1AadTpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eZ1AatTpEeyzp-OO8aolFQ" name="a">
+        <modelElement href="Progetto%20Scuola.uml#_ZyS0kdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZ1Aa9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZ1AbNTpEeyzp-OO8aolFQ" name="PlayerScore">
+          <modelElement href="Progetto%20Scuola.uml#_ZrWfENTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eZ1AbdTpEeyzp-OO8aolFQ" name="b">
+        <modelElement href="Progetto%20Scuola.uml#_ZyS0ktTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eZ1AbtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eZ1Ab9TpEeyzp-OO8aolFQ" name="PlayerScore">
+          <modelElement href="Progetto%20Scuola.uml#_ZrWfENTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eZ4qwNTpEeyzp-OO8aolFQ" comments="_eZ3coNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZ3codTpEeyzp-OO8aolFQ" name="Screen">
+    <modelElement href="Progetto%20Scuola.uml#_Zrdz0NTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eZ4qwdTpEeyzp-OO8aolFQ" position="558.0,605.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_eZ4qwtTpEeyzp-OO8aolFQ" label="+"/>
+    <attributes xmi:id="_eZ4qw9TpEeyzp-OO8aolFQ" defaultValue="800" name="SCREEN_WIDTH" staticAttribute="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZznDMNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZ4qxNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZ4qxdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZ4qxtTpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZ4qx9TpEeyzp-OO8aolFQ" defaultValue="SCREEN_WIDTH / 4 * 3" name="SCREEN_HEIGHT" staticAttribute="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZznDMtTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZ4qyNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZ4qydTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZ4qytTpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZ4qy9TpEeyzp-OO8aolFQ" defaultValue="SCREEN_WIDTH / 100" name="UNIT_SIZE" staticAttribute="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZznDNNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZ4qzNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZ4qzdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZ4qztTpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZ4qz9TpEeyzp-OO8aolFQ" defaultValue="8" name="DELAY" staticAttribute="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZznDNtTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZ4q0NTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZ4q0dTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZ4q0tTpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eZ9jSdTpEeyzp-OO8aolFQ" comments="_eZ7uENTpEeyzp-OO8aolFQ" targetConnectionVisual="_eZ7uEdTpEeyzp-OO8aolFQ" name="GameArea" associationsOut="_eZ9jQNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_ZrIcoNTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eZ9jStTpEeyzp-OO8aolFQ" position="-494.0,733.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_eZ9jS9TpEeyzp-OO8aolFQ" label="+"/>
+    <attributes xmi:id="_eZ9jTNTpEeyzp-OO8aolFQ" defaultValue="Screen.SCREEN_WIDTH / 4 * 3" name="GAME_AREA_WIDTH" staticAttribute="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzhjoNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZ9jTdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZ9jTtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZ9jT9TpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZ9jUNTpEeyzp-OO8aolFQ" defaultValue="Screen.SCREEN_HEIGHT / 2" name="GAME_AREA_HEIGHT" staticAttribute="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzhjotTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZ9jUdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZ9jUtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZ9jU9TpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZ9jVNTpEeyzp-OO8aolFQ" defaultValue="Screen.SCREEN_WIDTH / 2 - GAME_AREA_WIDTH / 2" name="GAME_AREA_X" staticAttribute="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzhjpNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZ9jVdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZ9jVtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZ9jV9TpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZ9jWNTpEeyzp-OO8aolFQ" defaultValue="Screen.SCREEN_HEIGHT / 2 - GAME_AREA_HEIGHT / 6" name="GAME_AREA_Y" staticAttribute="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZzhjptTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZ9jWdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZ9jWtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZ9jW9TpEeyzp-OO8aolFQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eZ9jXNTpEeyzp-OO8aolFQ" defaultValue="new Rectangle(GAME_AREA_X, GAME_AREA_Y, GAME_AREA_WIDTH, GAME_AREA_HEIGHT)" name="rGame" staticAttribute="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZziKsdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eZ9jXdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eZ9jXtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eZ9jX9TpEeyzp-OO8aolFQ" name="Rectangle">
+        <modelElement href="Progetto%20Scuola.uml#_ZyFZMdTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eaGGINTpEeyzp-OO8aolFQ" comments="_eaB0sNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eaB0sdTpEeyzp-OO8aolFQ" name="Leaderboard" associationsIn="_eYQ6INTpEeyzp-OO8aolFQ" associationsOut="_eaCbwNTpEeyzp-OO8aolFQ _eaFfENTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_ZrK44NTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eaGGIdTpEeyzp-OO8aolFQ" position="523.0,-106.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_eaGGItTpEeyzp-OO8aolFQ" label="+"/>
+    <attributes xmi:id="_eaGGI9TpEeyzp-OO8aolFQ" defaultValue="new File(&quot;leaderboard.dat&quot;)" name="file" staticAttribute="true">
+      <modelElement href="Progetto%20Scuola.uml#_ZziKs9TpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eaGGJNTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzixwNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eaGGJdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaGGJtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eaGGJ9TpEeyzp-OO8aolFQ" name="File">
+        <modelElement href="Progetto%20Scuola.uml#_Zx6aENTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eaGGKNTpEeyzp-OO8aolFQ" name="a">
+      <modelElement href="Progetto%20Scuola.uml#_ZzixwdTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eaGGKdTpEeyzp-OO8aolFQ" name="Generics">
+        <modelElement href="Progetto%20Scuola.uml#_ZzjY0NTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eaGGKtTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaGGK9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eaGGLNTpEeyzp-OO8aolFQ" name="ArrayList">
+        <modelElement href="Progetto%20Scuola.uml#_ZyCV4NTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eaGGLdTpEeyzp-OO8aolFQ" name="Leaderboard">
+      <modelElement href="Progetto%20Scuola.uml#_ZrMHANTpEeyzp-OO8aolFQ"/>
+      <keywords xmi:id="_eaGGLtTpEeyzp-OO8aolFQ" keyword="create"/>
+      <visibility xmi:id="_eaGGL9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaGGMNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eaGGMdTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZrMHA9TpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eaGGMtTpEeyzp-OO8aolFQ" name="Leaderboard">
+          <modelElement href="Progetto%20Scuola.uml#_ZrK44NTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eaGGM9TpEeyzp-OO8aolFQ" name="toString">
+      <modelElement href="Progetto%20Scuola.uml#_ZrMuENTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eaGGNNTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZrNVINTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eaGGNdTpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZrNVIdTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eaGGNtTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaGGN9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eaGGONTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZrMuEdTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eaGGOdTpEeyzp-OO8aolFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eaGGOtTpEeyzp-OO8aolFQ" name="update">
+      <modelElement href="Progetto%20Scuola.uml#_ZrN8MNTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eaGGO9TpEeyzp-OO8aolFQ" name="Generics">
+        <modelElement href="Progetto%20Scuola.uml#_ZrPKUNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eaGGPNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaGGPdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eaGGPtTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZzDpkNTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eaGGP9TpEeyzp-OO8aolFQ" name="DefaultListModel">
+          <modelElement href="Progetto%20Scuola.uml#_ZyMG4dTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eaGGQNTpEeyzp-OO8aolFQ" name="resetLeaderboard">
+      <modelElement href="Progetto%20Scuola.uml#_ZrPxYNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaGGQdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaGGQtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eaGGQ9TpEeyzp-OO8aolFQ" name="writeToFile">
+      <modelElement href="Progetto%20Scuola.uml#_ZrPxYdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaGGRNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaGGRdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eaGGRtTpEeyzp-OO8aolFQ" name="name">
+        <modelElement href="Progetto%20Scuola.uml#_ZrQYcNTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eaGGR9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eaGGSNTpEeyzp-OO8aolFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eaGGSdTpEeyzp-OO8aolFQ" name="score">
+        <modelElement href="Progetto%20Scuola.uml#_ZrQYcdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eaGGStTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eaGGS9TpEeyzp-OO8aolFQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eaGGTNTpEeyzp-OO8aolFQ" name="add">
+      <modelElement href="Progetto%20Scuola.uml#_ZyN8ENTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaGGTdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaGGTtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eaGGT9TpEeyzp-OO8aolFQ" name="x">
+        <modelElement href="Progetto%20Scuola.uml#_ZyN8EdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eaGGUNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eaGGUdTpEeyzp-OO8aolFQ" name="PlayerScore">
+          <modelElement href="Progetto%20Scuola.uml#_ZrWfENTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eaOpANTpEeyzp-OO8aolFQ" name="GameFrame" associationsIn="_eYm4YNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_ZqjN0NTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eaOpAdTpEeyzp-OO8aolFQ" position="864.0,107.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eaOpAtTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+      <modelElement href="Progetto%20Scuola.uml#_ZqnfQNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_eaOpA9TpEeyzp-OO8aolFQ" name="Annotations">
+      <modelElement href="Progetto%20Scuola.uml#_Zqp7gNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <visibility xmi:id="_eaOpBNTpEeyzp-OO8aolFQ" label="+"/>
+    <operations xmi:id="_eaOpBdTpEeyzp-OO8aolFQ" comments="_eaOB8NTpEeyzp-OO8aolFQ" targetConnectionVisual="_eaOB8dTpEeyzp-OO8aolFQ" name="GameFrame">
+      <modelElement href="Progetto%20Scuola.uml#_Zx2IoNTpEeyzp-OO8aolFQ"/>
+      <keywords xmi:id="_eaOpBtTpEeyzp-OO8aolFQ" keyword="create"/>
+      <stereotypes xmi:id="_eaOpB9TpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_Zx2vstTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eaOpCNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaOpCdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eaOpCtTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_Zx2vsdTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eaOpC9TpEeyzp-OO8aolFQ" name="GameFrame">
+          <modelElement href="Progetto%20Scuola.uml#_ZqjN0NTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_eaOpDNTpEeyzp-OO8aolFQ" name="gp">
+        <modelElement href="Progetto%20Scuola.uml#_Zx2IodTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eaOpDdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eaOpDtTpEeyzp-OO8aolFQ" name="GamePanel">
+          <modelElement href="Progetto%20Scuola.uml#_ZrqoINTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eaYaCdTpEeyzp-OO8aolFQ" name="GamePanel" associationsIn="_eYmRUNTpEeyzp-OO8aolFQ" associationsOut="_eZaJoNTpEeyzp-OO8aolFQ _eZH1wtTpEeyzp-OO8aolFQ _eZjTkNTpEeyzp-OO8aolFQ _eaYaANTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_ZrqoINTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eaYaCtTpEeyzp-OO8aolFQ" position="-807.0,-52.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eaYaC9TpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+      <modelElement href="Progetto%20Scuola.uml#_ZrrPMNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_eaYaDNTpEeyzp-OO8aolFQ" name="Annotations">
+      <modelElement href="Progetto%20Scuola.uml#_ZrvgoNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <visibility xmi:id="_eaYaDdTpEeyzp-OO8aolFQ" label="+"/>
+    <attributes xmi:id="_eaYaDtTpEeyzp-OO8aolFQ" name="g">
+      <modelElement href="Progetto%20Scuola.uml#_ZzsiwNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaYaD9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eaYaENTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eaYaEdTpEeyzp-OO8aolFQ" name="Graphics">
+        <modelElement href="Progetto%20Scuola.uml#_ZykhYdTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eaYaEtTpEeyzp-OO8aolFQ" defaultValue="false" name="end">
+      <modelElement href="Progetto%20Scuola.uml#_ZzsiwdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaYaE9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eaYaFNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eaYaFdTpEeyzp-OO8aolFQ" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eaYaFtTpEeyzp-OO8aolFQ" defaultValue="new Player()" name="player">
+      <modelElement href="Progetto%20Scuola.uml#_ZztJ0dTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaYaF9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eaYaGNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eaYaGdTpEeyzp-OO8aolFQ" name="Player">
+        <modelElement href="Progetto%20Scuola.uml#_ZrSNoNTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eaYaGtTpEeyzp-OO8aolFQ" defaultValue="new EnemyArray()" name="enemy">
+      <modelElement href="Progetto%20Scuola.uml#_ZztJ09TpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaYaG9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eaYaHNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eaYaHdTpEeyzp-OO8aolFQ" name="EnemyArray">
+        <modelElement href="Progetto%20Scuola.uml#_Zq-EkNTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eaYaHtTpEeyzp-OO8aolFQ" defaultValue="new Score()" name="score">
+      <modelElement href="Progetto%20Scuola.uml#_Zztw4NTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eaYaH9TpEeyzp-OO8aolFQ" label="~"/>
+      <cardinality xmi:id="_eaYaINTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eaYaIdTpEeyzp-OO8aolFQ" name="Score">
+        <modelElement href="Progetto%20Scuola.uml#_ZrawgNTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eaYaItTpEeyzp-OO8aolFQ" comments="_eaUIkNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eaUIkdTpEeyzp-OO8aolFQ" name="GamePanel">
+      <modelElement href="Progetto%20Scuola.uml#_ZrsdUNTpEeyzp-OO8aolFQ"/>
+      <keywords xmi:id="_eaYaI9TpEeyzp-OO8aolFQ" keyword="create"/>
+      <stereotypes xmi:id="_eaYaJNTpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZrtEYNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eaYaJdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaYaJtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eaYaJ9TpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZrsdU9TpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eaYaKNTpEeyzp-OO8aolFQ" name="GamePanel">
+          <modelElement href="Progetto%20Scuola.uml#_ZrqoINTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eaYaKdTpEeyzp-OO8aolFQ" comments="_eaUvoNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eaUvodTpEeyzp-OO8aolFQ" name="drawEnd">
+      <modelElement href="Progetto%20Scuola.uml#_ZrtrcNTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eaYaKtTpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZruSgNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eaYaK9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaYaLNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eaYaLdTpEeyzp-OO8aolFQ" comments="_eaUvotTpEeyzp-OO8aolFQ" targetConnectionVisual="_eaVWsNTpEeyzp-OO8aolFQ" name="gameOver">
+      <modelElement href="Progetto%20Scuola.uml#_ZruSgdTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eaYaLtTpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_Zru5kNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eaYaL9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaYaMNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eaYaMdTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_ZruSgtTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eaYaMtTpEeyzp-OO8aolFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_eaYaM9TpEeyzp-OO8aolFQ" comments="_eaVWsdTpEeyzp-OO8aolFQ" targetConnectionVisual="_eaVWstTpEeyzp-OO8aolFQ" name="showConfirmation">
+      <modelElement href="Progetto%20Scuola.uml#_Zru5kdTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eaYaNNTpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_Zru5ktTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eaYaNdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaYaNtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_eaYaN9TpEeyzp-OO8aolFQ" comments="_eaV9wNTpEeyzp-OO8aolFQ" targetConnectionVisual="_eaV9wdTpEeyzp-OO8aolFQ" name="callRepaint">
+      <modelElement href="Progetto%20Scuola.uml#_ZyqoANTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eaYaONTpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZyqoBNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eaYaOdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaYaOtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eaYaO9TpEeyzp-OO8aolFQ" name="player">
+        <modelElement href="Progetto%20Scuola.uml#_ZyqoAdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eaYaPNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eaYaPdTpEeyzp-OO8aolFQ" name="Player">
+          <modelElement href="Progetto%20Scuola.uml#_ZrSNoNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eaYaPtTpEeyzp-OO8aolFQ" name="enemy">
+        <modelElement href="Progetto%20Scuola.uml#_ZyqoAtTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eaYaP9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eaYaQNTpEeyzp-OO8aolFQ" name="EnemyArray">
+          <modelElement href="Progetto%20Scuola.uml#_Zq-EkNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_eaYaQdTpEeyzp-OO8aolFQ" name="score">
+        <modelElement href="Progetto%20Scuola.uml#_ZyqoA9TpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eaYaQtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eaYaQ9TpEeyzp-OO8aolFQ" name="Score">
+          <modelElement href="Progetto%20Scuola.uml#_ZrawgNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eaYaRNTpEeyzp-OO8aolFQ" comments="_eaV9wtTpEeyzp-OO8aolFQ" targetConnectionVisual="_eaV9w9TpEeyzp-OO8aolFQ" name="paintComponent">
+      <modelElement href="Progetto%20Scuola.uml#_ZzS6INTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eaYaRdTpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzS6ItTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eaYaRtTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaYaR9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eaYaSNTpEeyzp-OO8aolFQ" name="g">
+        <modelElement href="Progetto%20Scuola.uml#_ZzS6IdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eaYaSdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eaYaStTpEeyzp-OO8aolFQ" name="Graphics">
+          <modelElement href="Progetto%20Scuola.uml#_ZykhYdTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_eaYaS9TpEeyzp-OO8aolFQ" comments="_eaWk0NTpEeyzp-OO8aolFQ" targetConnectionVisual="_eaWk0dTpEeyzp-OO8aolFQ" name="draw">
+      <modelElement href="Progetto%20Scuola.uml#_ZzThMNTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eaYaTNTpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzThMtTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eaYaTdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eaYaTtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_eaYaT9TpEeyzp-OO8aolFQ" name="g">
+        <modelElement href="Progetto%20Scuola.uml#_ZzThMdTpEeyzp-OO8aolFQ"/>
+        <cardinality xmi:id="_eaYaUNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+        <type xmi:id="_eaYaUdTpEeyzp-OO8aolFQ" name="Graphics">
+          <modelElement href="Progetto%20Scuola.uml#_ZykhYdTpEeyzp-OO8aolFQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_eanDidTpEeyzp-OO8aolFQ" name="LeaderboardWindow" associationsIn="_eYPsANTpEeyzp-OO8aolFQ _eakAMNTpEeyzp-OO8aolFQ" associationsOut="_eaknQNTpEeyzp-OO8aolFQ _ealOUNTpEeyzp-OO8aolFQ _eal1YNTpEeyzp-OO8aolFQ _eamccNTpEeyzp-OO8aolFQ _eanDgNTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_ZrzLANTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_eanDitTpEeyzp-OO8aolFQ" position="841.0,-175.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_eanDi9TpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+      <modelElement href="Progetto%20Scuola.uml#_ZrzyENTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_eanDjNTpEeyzp-OO8aolFQ" name="Annotations">
+      <modelElement href="Progetto%20Scuola.uml#_Zr1nQdTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <visibility xmi:id="_eanDjdTpEeyzp-OO8aolFQ" label="+"/>
+    <attributes xmi:id="_eanDjtTpEeyzp-OO8aolFQ" name="contentPane">
+      <modelElement href="Progetto%20Scuola.uml#_ZzuX8NTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eanDj9TpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eanDkNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eanDkdTpEeyzp-OO8aolFQ" name="JPanel">
+        <modelElement href="Progetto%20Scuola.uml#_Zyoy0dTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eanDktTpEeyzp-OO8aolFQ" name="scrollPane">
+      <modelElement href="Progetto%20Scuola.uml#_ZzuX8dTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eanDk9TpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eanDlNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eanDldTpEeyzp-OO8aolFQ" name="JScrollPane">
+        <modelElement href="Progetto%20Scuola.uml#_ZyvggdTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eanDltTpEeyzp-OO8aolFQ" name="list">
+      <modelElement href="Progetto%20Scuola.uml#_ZzuX8tTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eanDl9TpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_Zzu_ANTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_eanDmNTpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_ZzvmEdTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eanDmdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eanDmtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eanDm9TpEeyzp-OO8aolFQ" name="JList">
+        <modelElement href="Progetto%20Scuola.uml#_ZywHkdTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eanDnNTpEeyzp-OO8aolFQ" name="btnExit">
+      <modelElement href="Progetto%20Scuola.uml#_ZzwNJNTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eanDndTpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzwNJdTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eanDntTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eanDn9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eanDoNTpEeyzp-OO8aolFQ" name="JButton">
+        <modelElement href="Progetto%20Scuola.uml#_Zyu5cNTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eanDodTpEeyzp-OO8aolFQ" name="lblTitle">
+      <modelElement href="Progetto%20Scuola.uml#_Zzw0MNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_eanDotTpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_eanDo9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eanDpNTpEeyzp-OO8aolFQ" name="JLabel">
+        <modelElement href="Progetto%20Scuola.uml#_ZytrUdTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_eanDpdTpEeyzp-OO8aolFQ" name="btnReset">
+      <modelElement href="Progetto%20Scuola.uml#_Zzw0MdTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_eanDptTpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_Zzw0MtTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eanDp9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eanDqNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_eanDqdTpEeyzp-OO8aolFQ" name="JButton">
+        <modelElement href="Progetto%20Scuola.uml#_Zyu5cNTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_eanDqtTpEeyzp-OO8aolFQ" name="LeaderboardWindow">
+      <modelElement href="Progetto%20Scuola.uml#_Zr0ZINTpEeyzp-OO8aolFQ"/>
+      <keywords xmi:id="_eanDq9TpEeyzp-OO8aolFQ" keyword="create"/>
+      <stereotypes xmi:id="_eanDrNTpEeyzp-OO8aolFQ" name="Annotations">
+        <modelElement href="Progetto%20Scuola.uml#_Zr1AM9TpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_eanDrdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_eanDrtTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_eanDr9TpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_Zr1AMtTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_eanDsNTpEeyzp-OO8aolFQ" name="LeaderboardWindow">
+          <modelElement href="Progetto%20Scuola.uml#_ZrzLANTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ea1tANTpEeyzp-OO8aolFQ" name="MenuWindow" associationsIn="_eYRhMNTpEeyzp-OO8aolFQ _eZAhAdTpEeyzp-OO8aolFQ _eYfjodTpEeyzp-OO8aolFQ" associationsOut="_eatxMNTpEeyzp-OO8aolFQ _eauYQNTpEeyzp-OO8aolFQ _eauYQdTpEeyzp-OO8aolFQ _eauYQtTpEeyzp-OO8aolFQ _eau_UNTpEeyzp-OO8aolFQ _eau_UdTpEeyzp-OO8aolFQ _eau_UtTpEeyzp-OO8aolFQ">
+    <modelElement href="Progetto%20Scuola.uml#_Zr4qkNTpEeyzp-OO8aolFQ"/>
+    <visualProperties xmi:id="_ea1tAdTpEeyzp-OO8aolFQ" position="-301.0,-33.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ea1tAtTpEeyzp-OO8aolFQ" name="LegacyStyledElement">
+      <modelElement href="Progetto%20Scuola.uml#_Zr5RoNTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ea1tA9TpEeyzp-OO8aolFQ" name="Annotations">
+      <modelElement href="Progetto%20Scuola.uml#_Zr7G0NTpEeyzp-OO8aolFQ"/>
+    </stereotypes>
+    <visibility xmi:id="_ea1tBNTpEeyzp-OO8aolFQ" label="+"/>
+    <attributes xmi:id="_ea1tBdTpEeyzp-OO8aolFQ" name="contentPane">
+      <modelElement href="Progetto%20Scuola.uml#_ZzxbQNTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_ea1tBtTpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_ea1tB9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ea1tCNTpEeyzp-OO8aolFQ" name="JPanel">
+        <modelElement href="Progetto%20Scuola.uml#_Zyoy0dTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ea1tCdTpEeyzp-OO8aolFQ" name="panel">
+      <modelElement href="Progetto%20Scuola.uml#_ZzxbQdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_ea1tCtTpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_ea1tC9TpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ea1tDNTpEeyzp-OO8aolFQ" name="JPanel">
+        <modelElement href="Progetto%20Scuola.uml#_Zyoy0dTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ea1tDdTpEeyzp-OO8aolFQ" name="btnStart">
+      <modelElement href="Progetto%20Scuola.uml#_ZzxbQtTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_ea1tDtTpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzyCUNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_ea1tD9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_ea1tENTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ea1tEdTpEeyzp-OO8aolFQ" name="JButton">
+        <modelElement href="Progetto%20Scuola.uml#_Zyu5cNTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ea1tEtTpEeyzp-OO8aolFQ" name="lblImgLeft">
+      <modelElement href="Progetto%20Scuola.uml#_ZzyCUdTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_ea1tE9TpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_ea1tFNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ea1tFdTpEeyzp-OO8aolFQ" name="JLabel">
+        <modelElement href="Progetto%20Scuola.uml#_ZytrUdTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ea1tFtTpEeyzp-OO8aolFQ" name="lblTitle">
+      <modelElement href="Progetto%20Scuola.uml#_ZzyCUtTpEeyzp-OO8aolFQ"/>
+      <visibility xmi:id="_ea1tF9TpEeyzp-OO8aolFQ" label="-"/>
+      <cardinality xmi:id="_ea1tGNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ea1tGdTpEeyzp-OO8aolFQ" name="JLabel">
+        <modelElement href="Progetto%20Scuola.uml#_ZytrUdTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ea1tGtTpEeyzp-OO8aolFQ" name="btnExit">
+      <modelElement href="Progetto%20Scuola.uml#_ZzyCU9TpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_ea1tG9TpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzypYNTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_ea1tHNTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_ea1tHdTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ea1tHtTpEeyzp-OO8aolFQ" name="JButton">
+        <modelElement href="Progetto%20Scuola.uml#_Zyu5cNTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ea1tH9TpEeyzp-OO8aolFQ" name="btnLeaderboard">
+      <modelElement href="Progetto%20Scuola.uml#_ZzypYdTpEeyzp-OO8aolFQ"/>
+      <stereotypes xmi:id="_ea1tINTpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_ZzypYtTpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_ea1tIdTpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_ea1tItTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ea1tI9TpEeyzp-OO8aolFQ" name="JButton">
+        <modelElement href="Progetto%20Scuola.uml#_Zyu5cNTpEeyzp-OO8aolFQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ea1tJNTpEeyzp-OO8aolFQ" comments="_eau_U9TpEeyzp-OO8aolFQ" targetConnectionVisual="_eavmYNTpEeyzp-OO8aolFQ" name="MenuWindow">
+      <modelElement href="Progetto%20Scuola.uml#_Zr54sNTpEeyzp-OO8aolFQ"/>
+      <keywords xmi:id="_ea1tJdTpEeyzp-OO8aolFQ" keyword="create"/>
+      <stereotypes xmi:id="_ea1tJtTpEeyzp-OO8aolFQ" name="StyledElement">
+        <modelElement href="Progetto%20Scuola.uml#_Zr6fw9TpEeyzp-OO8aolFQ"/>
+      </stereotypes>
+      <visibility xmi:id="_ea1tJ9TpEeyzp-OO8aolFQ" label="+"/>
+      <cardinality xmi:id="_ea1tKNTpEeyzp-OO8aolFQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ea1tKdTpEeyzp-OO8aolFQ">
+        <modelElement href="Progetto%20Scuola.uml#_Zr6fwtTpEeyzp-OO8aolFQ"/>
+        <type xmi:id="_ea1tKtTpEeyzp-OO8aolFQ" name="MenuWindow">
+          <modelElement href="Progetto%20Scuola.uml#_Zr4qkNTpEeyzp-OO8aolFQ"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

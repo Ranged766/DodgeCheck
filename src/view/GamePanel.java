@@ -23,16 +23,25 @@ import model.Player;
 import model.Score;
 import model.Screen;
 
+/**
+ * Classe contenente la schermata di gioco.
+ * 
+ * @author Gruppo 7
+ *
+ */
 @SuppressWarnings("serial")
 public class GamePanel extends JPanel {
 
 	Graphics g;
+	Boolean end = false;
 
 	Player player = new Player();
 	EnemyArray enemy = new EnemyArray();
 	Score score = new Score();
 
-	// builder
+	/**
+	 * Metodo costruttore del @GamePanel.
+	 */
 	public GamePanel() {
 		// create window
 		this.setPreferredSize(new Dimension(Screen.SCREEN_WIDTH, Screen.SCREEN_HEIGHT));
@@ -43,6 +52,13 @@ public class GamePanel extends JPanel {
 
 	}
 
+	/**
+	 * Metodo che chiama i vari metodi necessari al draw del pannello.
+	 * 
+	 * @param player istanza di @Player
+	 * @param enemy  istanza di @EnemyArray
+	 * @param score  istanza di @Score
+	 */
 	public void callRepaint(Player player, EnemyArray enemy, Score score) {
 		this.player = player;
 		this.enemy = enemy;
@@ -50,18 +66,27 @@ public class GamePanel extends JPanel {
 		repaint();
 	}
 
-	// call reset and draw method, get called by redraw()
+	/**
+	 * Metodo chiamto per il draw del pannello.
+	 */
 	public void paintComponent(Graphics g) {
 		this.g = g;
 		// reset the 'window'
 		super.paintComponent(g);
 
 		// draw the position of every element
-		draw(g);
+		if (!end)
+			draw(g);
+		else
+			drawEnd();
 
 	}
 
-	// draw method
+	/**
+	 * Metodo utilizzato per rappresentare a schermo il gioco.
+	 * 
+	 * @param g istanza di @Graphics
+	 */
 	public void draw(Graphics g) {
 
 		// write score
@@ -74,11 +99,6 @@ public class GamePanel extends JPanel {
 		g.drawString("SCORE", (Screen.SCREEN_WIDTH - metrics2.stringWidth("SCORE")) / 2, 30 + Screen.UNIT_SIZE);
 		g.drawString("" + score.getScore(), (Screen.SCREEN_WIDTH - metrics2.stringWidth("" + score.getScore())) / 2,
 				30 + Screen.UNIT_SIZE + 30);
-
-		// draw player
-		// g.setColor(Color.red);
-
-		// g.fillRect(player.getX(), player.getY(), Screen.UNIT_SIZE, Screen.UNIT_SIZE);
 
 		BufferedImage image = null;
 		try {
@@ -109,9 +129,11 @@ public class GamePanel extends JPanel {
 		}
 	}
 
-	public String gameOver() {
+	/**
+	 * Stampa il testo di game over.
+	 */
+	public void drawEnd() {
 		// Game Over text
-
 		g.setColor(Color.red);
 
 		g.setFont(new Font("Verdana", Font.BOLD, 75));
@@ -119,13 +141,28 @@ public class GamePanel extends JPanel {
 		FontMetrics metrics2 = getFontMetrics(g.getFont());
 
 		g.drawString("GAME OVER", (Screen.SCREEN_WIDTH - metrics2.stringWidth("GAME OVER")) / 2,
-				Screen.SCREEN_HEIGHT / 2);
+				Screen.SCREEN_HEIGHT / 4);
+	}
+
+	/**
+	 * Metodo chimato per mostrare la schermata di game over e richiedere il nome.
+	 * del player.
+	 * 
+	 * @return Nome del player
+	 */
+	public String gameOver() {
+
+		end = true;
+		repaint();
 
 		return JOptionPane.showInputDialog("What is your name?", null);
 	}
-	
+
+	/**
+	 * Metodo che mostra una conferma dell'inserimento del punteggio.
+	 */
 	public void showConfirmation() {
-		
+
 		JOptionPane.showMessageDialog(null, "Punteggio salvato!");
 	}
 }

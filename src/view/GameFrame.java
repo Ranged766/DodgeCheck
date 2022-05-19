@@ -4,19 +4,26 @@ import java.awt.Toolkit;
 
 import javax.swing.JFrame;
 
+/**
+ * Frame contenente il @GamePanel.
+ * 
+ * @author Gruppo 7
+ *
+ */
 @SuppressWarnings("serial")
-public class GameFrame extends JFrame{
+public class GameFrame extends JFrame {
 
-	public GameFrame(GamePanel gp){			
+	/**
+	 * Metodo costruttore del @GameFrame.
+	 * @param gp istanza di @GamePanel
+	 */
+	public GameFrame(GamePanel gp) {
 
 		this.add(gp);
 
 		this.setTitle("Dodge Check");
-		
 
 		this.setIconImage(Toolkit.getDefaultToolkit().getImage(MenuWindow.class.getResource("/img/icon.png")));
-
-		//this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		this.setResizable(false);
 

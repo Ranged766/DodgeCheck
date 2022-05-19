@@ -11,12 +11,22 @@ import model.PlayerScore;
 import view.LeaderboardWindow;
 import view.MenuWindow;
 
+/**
+ * Classe che funge da controller per la @Leaderboard.
+ * 
+ * @author Gruppo 7
+ *
+ */
 public class LeaderboardController implements ActionListener {
 
 	private LeaderboardWindow v;
 	private Leaderboard l;
 	private MenuWindow mw;
 
+	/**
+	 * Metodo costruttore della classe @LeaderboardController.
+	 * @param mw istanza del @MenuWindow
+	 */
 	public LeaderboardController(MenuWindow mw) {
 		this.mw = mw;
 		this.l = new Leaderboard();
@@ -30,6 +40,9 @@ public class LeaderboardController implements ActionListener {
 		v.getBtnReset().addActionListener(this);
 	}
 
+	/**
+	 * Metodo utilizzato per aggiornare la @Leaderboard con i valori presenti nel file.
+	 */
 	@SuppressWarnings("unchecked")
 	public void updateList() {
 		updateFromFile();
@@ -55,6 +68,9 @@ public class LeaderboardController implements ActionListener {
 		}
 	}
 
+	/**
+	 * Implementazione del @ActionListener. Gestisce l'uscita e il reset della finestra Leaderboard.
+	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == v.getBtnExit()) {

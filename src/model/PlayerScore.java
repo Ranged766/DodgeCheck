@@ -2,10 +2,20 @@ package model;
 
 import java.io.Serializable;
 
+/**
+ * Classe contenente i valori di un punteggio.
+ * @author Gruppo 7
+ *
+ */
 @SuppressWarnings("serial")
 public class PlayerScore implements Serializable {
 	private String nome;
 	private int score;
+	/**
+	 * Metodo costruttore della classe @PlayerScore.
+	 * @param nome nome del giocatore
+	 * @param score punteggio del giocatore
+	 */
 	public PlayerScore(String nome, int score) {
 		super();
 		this.nome = nome;

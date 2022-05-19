@@ -4,12 +4,17 @@ import view.MenuWindow;
 
 import control.MenuController;
 
+/**
+ * Classe principale per l'avvio del programma.
+ * 
+ * @author Gruppo 7
+ *
+ */
 public class ProgettoMain {
 
 	public static void main(String[] args) {
 		
-		MenuWindow mw = new MenuWindow();
-		new MenuController(mw);
+		new MenuController(new MenuWindow());
 
 	}
 

@@ -10,6 +10,11 @@ import javax.swing.JLabel;
 import java.awt.Color;
 import java.awt.Toolkit;
 
+/**
+ * Classe contenente la schermata del menu.
+ * @author user
+ *
+ */
 @SuppressWarnings("serial")
 public class MenuWindow extends JFrame {
 
@@ -20,10 +25,6 @@ public class MenuWindow extends JFrame {
 	private JLabel lblTitle;
 	private JButton btnExit;
 	private JButton btnLeaderboard;
-
-	/**
-	 * Launch the application.
-	 */
 
 	/**
 	 * Create the frame.

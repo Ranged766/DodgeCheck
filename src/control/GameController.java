@@ -23,6 +23,11 @@ import view.GameFrame;
 import view.GamePanel;
 import view.MenuWindow;
 
+/**
+ * Classe che funge da controller per il pannello di gioco.
+ * 
+ * @author Gruppo 7
+ */
 public class GameController implements ActionListener, WindowListener {
 
 	MenuWindow mw;
@@ -50,6 +55,12 @@ public class GameController implements ActionListener, WindowListener {
 	// temp switch move enemy
 	boolean moveE;
 
+	/**
+	 * Costruttore del @GameController.
+	 * 
+	 * @param mw istanza del @MenuWindow
+	 * @param gp istanza del @GamePanel
+	 */
 	public GameController(MenuWindow mw, GamePanel gp) {
 		this.mw = mw;
 		this.gp = gp;
@@ -59,13 +70,17 @@ public class GameController implements ActionListener, WindowListener {
 
 		// key listener for movement
 		gp.addKeyListener(new MyKeyAdapter());
-		
+
 		gf.addWindowListener(this);
 
 		gf.setVisible(true);
 	}
 
-	// startup method
+	/**
+	 * Metodo utilizzato per inizializzare il pannello di gioco e il @Timer del
+	 * gioco.
+	 * 
+	 */
 	public void startGame() {
 
 		gf = new GameFrame(gp);
@@ -89,6 +104,10 @@ public class GameController implements ActionListener, WindowListener {
 
 	}
 
+	/**
+	 * Metodo utilizzato per eliminare il @GameFrame precedente e resettare i suoi
+	 * valori, chiamando poi la creazione di un nuovo pannello di gioco.
+	 */
 	public void newGame() {
 		gf.setVisible(false);
 		gf.dispose();
@@ -101,7 +120,9 @@ public class GameController implements ActionListener, WindowListener {
 		startGame();
 	}
 
-	// create enemy
+	/**
+	 * Metodo utilizzato per la creazione di nuovi nemici.
+	 */
 	public void createEnemy() {
 
 		int enemyDimX = 0;
@@ -123,7 +144,9 @@ public class GameController implements ActionListener, WindowListener {
 
 	}
 
-	// move method
+	/**
+	 * Metodo utilizzato per muovere il giocatore nella direzione necessaria.
+	 */
 	public void move() {
 
 		int slow = 2;
@@ -149,7 +172,10 @@ public class GameController implements ActionListener, WindowListener {
 
 	}
 
-	// move enemy
+	/**
+	 * Metodo utilizzato per muovere i nemici secondo i valori a loro stabiliti, e
+	 * calcolando se necessario accelerarli qunado arrivano a fine schermata.
+	 */
 	public void moveEnemy() {
 		if (moveE) {
 			moveE = false;
@@ -165,7 +191,6 @@ public class GameController implements ActionListener, WindowListener {
 						x.setX(0);
 						x.setY(random.nextInt(GameArea.GAME_AREA_HEIGHT) + GameArea.GAME_AREA_Y);
 						int randa = (int) Math.floor((double) random.nextInt(100) / (65 + x.getSpeed() * 2));
-						// System.out.println(randa);
 						x.setSpeed(x.getSpeed() + randa);
 						score.setScore(score.getScore() + 1);
 						if (x.isBlue() && random.nextInt(3) == 1) {
@@ -187,11 +212,7 @@ public class GameController implements ActionListener, WindowListener {
 						x.setY(200);
 						x.setX(random.nextInt(GameArea.GAME_AREA_WIDTH) + GameArea.GAME_AREA_X);
 						int randa = (int) Math.floor((double) random.nextInt(100) / (80 + x.getSpeed() * 2));
-						// int chance = 100 - (80 + x.getSpeed() * 2);
-						// System.out.println("chance: " + chance);
-						// System.out.println("rand " + randa);
 						x.setSpeed(x.getSpeed() + randa);
-						// System.out.println("speed " + x.getSpeed());
 						score.setScore(score.getScore() + 1);
 						if (x.isBlue() && random.nextInt(3) == 1) {
 							EnemyBlue eb = (EnemyBlue) x;
@@ -208,6 +229,10 @@ public class GameController implements ActionListener, WindowListener {
 			moveE = true;
 	}
 
+	/**
+	 * Metodo utilizzato per il controllo delle collisioni del giocatore col bordo o
+	 * i nemici, fermando la partita in caso di collisione.
+	 */
 	public void checkCollisions() {
 
 		// check if player touches left border
@@ -282,12 +307,15 @@ public class GameController implements ActionListener, WindowListener {
 	}
 
 	private void loadOnFile(String name) {
-
 		Leaderboard l = new Leaderboard();
 		l.writeToFile(name, score.getScore());
 	}
 
-	// method in use every timer call (DELAY)
+	/**
+	 * Implementazione del @ActionListener che ascolta le chiamate del @Timer.
+	 * Gestisce le chiamte dei movimenti e delle collisioni, chiamando inoltre il
+	 * refresh della schermata o la fine del gioco.
+	 */
 	public void actionPerformed(ActionEvent e) {
 
 		if (running) {
@@ -309,11 +337,13 @@ public class GameController implements ActionListener, WindowListener {
 
 	}
 
-	// game over method
+	/**
+	 * Metodo utilizzato quando il gioco viene terminato.
+	 */
 	public void gameOver() {
 		String name = gp.gameOver();
 
-		if (name != null) {
+		if (name != null && name != "") {
 
 			loadOnFile(name);
 			gp.showConfirmation();
@@ -327,7 +357,10 @@ public class GameController implements ActionListener, WindowListener {
 
 	}
 
-	// input method
+	/**
+	 * Estensione della classe @KeyAdapter per l'implementazione dei suoi metodi,
+	 * necessari per l'input dei comandi.
+	 */
 	public class MyKeyAdapter extends KeyAdapter {
 
 		@Override
@@ -386,43 +419,36 @@ public class GameController implements ActionListener, WindowListener {
 
 	@Override
 	public void windowOpened(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
-	public void windowClosing(WindowEvent e) {		//	serve fixare
-		// TODO Auto-generated method stub
+	public void windowClosing(WindowEvent e) {
 		gf.dispose();
 		mw.setVisible(true);
 	}
 
 	@Override
 	public void windowClosed(WindowEvent e) {
-		// TODO Auto-generated method stub
 	}
 
 	@Override
 	public void windowIconified(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void windowDeiconified(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void windowActivated(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void windowDeactivated(WindowEvent e) {
-		// TODO Auto-generated method stub
-		
+
 	}
 }
